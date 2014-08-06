@@ -16053,7 +16053,7 @@ logo. Default layer for the logo on the board is tSilk.</description>
 <wire x1="0" y1="0" x2="0" y2="35.5" width="0.2032" layer="21"/>
 <rectangle x1="0" y1="22.39" x2="5.78" y2="35.5" layer="39" rot="R180"/>
 <rectangle x1="0" y1="22.39" x2="5.78" y2="35.5" layer="40" rot="R180"/>
-<text x="0.616" y="34.992" size="0.8128" layer="21" font="vector" ratio="15" rot="R270">&gt;NAME</text>
+<text x="0.616" y="34.992" size="0.8128" layer="25" font="vector" ratio="15" rot="R270">&gt;NAME</text>
 <hole x="23.53" y="30.67" drill="2"/>
 <hole x="2.93" y="1.98" drill="2"/>
 </package>
@@ -16288,7 +16288,7 @@ logo. Default layer for the logo on the board is tSilk.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="EDISON_CONNECTOR_FULL">
+<deviceset name="EDISON_CONNECTOR_FULL" prefix="U">
 <gates>
 <gate name="G$1" symbol="EDISON_CONNECTOR" x="-20.32" y="17.78"/>
 </gates>
@@ -18301,28 +18301,28 @@ SJ4</text>
 <label x="132.08" y="99.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="A1-/AIN3" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="AIN3"/>
 <wire x1="43.18" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="A1+/AIN2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="AIN2"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
 <wire x1="63.5" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="A0-/AIN1" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="5"/>
 <pinref part="U1" gate="G$1" pin="AIN1"/>
 <wire x1="43.18" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="A0+/AIN0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="AIN0"/>
 <pinref part="JP1" gate="G$1" pin="7"/>
