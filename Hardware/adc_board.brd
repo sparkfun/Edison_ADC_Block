@@ -170,6 +170,7 @@
 <dimension x1="1.778" y1="42.672" x2="0.4190875" y2="43.81858125" x3="-5.542384375" y3="48.848575" textsize="1.778" layer="51" dtype="radius"/>
 <dimension x1="29.28210625" y1="41.83789375" x2="27.86789375" y2="43.25210625" x3="34.29" y3="48.26" textsize="1.778" layer="51" dtype="diameter"/>
 <text x="29.21" y="6.35" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center">4xM2.0</text>
+<text x="1.27" y="3.81" size="1.778" layer="1" font="vector" ratio="15">v01</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">

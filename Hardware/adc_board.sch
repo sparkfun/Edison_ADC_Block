@@ -18091,6 +18091,8 @@ SJ4</text>
 1001001 (0x73)
 1001010 (0x74)
 1001011 (0x75)</text>
+<text x="237.744" y="6.604" size="3.81" layer="91">01</text>
+<text x="165.1" y="7.62" size="3.81" layer="91">M Hord</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
