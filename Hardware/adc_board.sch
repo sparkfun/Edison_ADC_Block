@@ -18112,8 +18112,10 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="2.2KOHM1/10W1%(0603)" device="" value="2.2k"/>
-<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
+<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
+<part name="FID3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
+<part name="FID4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -18173,6 +18175,8 @@ SJ4</text>
 <instance part="R6" gate="G$1" x="38.1" y="22.86" rot="R180"/>
 <instance part="FID1" gate="G$1" x="243.84" y="27.94"/>
 <instance part="FID2" gate="G$1" x="238.76" y="27.94"/>
+<instance part="FID3" gate="G$1" x="238.76" y="33.02"/>
+<instance part="FID4" gate="G$1" x="243.84" y="33.02"/>
 </instances>
 <busses>
 </busses>
