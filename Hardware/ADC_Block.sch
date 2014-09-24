@@ -16092,7 +16092,7 @@ Various fiducial points for machine vision alignment.</description>
 <hole x="2.93" y="1.98" drill="2"/>
 </package>
 <package name="DF40C-70DP-0.4(51)">
-<circle x="7.3" y="1" radius="0.1" width="0.3048" layer="21"/>
+<circle x="7.7" y="1" radius="0.1" width="0.3048" layer="21"/>
 <wire x1="-8.4" y1="1.44" x2="8.4" y2="1.44" width="0.2032" layer="21"/>
 <wire x1="8.4" y1="1.44" x2="8.4" y2="-1.44" width="0.2032" layer="21"/>
 <wire x1="8.4" y1="-1.44" x2="-8.4" y2="-1.44" width="0.2032" layer="21"/>
@@ -16167,6 +16167,10 @@ Various fiducial points for machine vision alignment.</description>
 <smd name="68" x="-6.4" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
 <smd name="69" x="-6.8" y="1.32" dx="0.2" dy="1.14" layer="16"/>
 <smd name="70" x="-6.8" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC4" x="-7.2" y="1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC3" x="-7.2" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC1" x="7.2" y="1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC2" x="7.2" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
 </package>
 <package name="DF40-XC-(X.X)-70DS-0.4V(51)">
 <smd name="69" x="-6.8" y="1.32" dx="0.2" dy="1.14" layer="1"/>
@@ -16319,6 +16323,7 @@ Various fiducial points for machine vision alignment.</description>
 <text x="-2.54" y="-86.36" size="1.27" layer="96">&gt;VALUE</text>
 <text x="-2.54" y="33.02" size="1.27" layer="95" align="top-left">&gt;NAME</text>
 <pin name="GP84_SD_CLK_FB" x="43.18" y="-5.08" length="short" rot="R180"/>
+<pin name="DCIN" x="-5.08" y="20.32" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -16332,6 +16337,7 @@ Various fiducial points for machine vision alignment.</description>
 <connect gate="G$1" pin="1.8V" pad="12"/>
 <connect gate="G$1" pin="3.3V@1" pad="8"/>
 <connect gate="G$1" pin="3.3V@2" pad="10"/>
+<connect gate="G$1" pin="DCIN" pad="14"/>
 <connect gate="G$1" pin="FAULT" pad="19"/>
 <connect gate="G$1" pin="FW_RCVR" pad="69"/>
 <connect gate="G$1" pin="GND@1" pad="1"/>
@@ -16404,6 +16410,7 @@ Various fiducial points for machine vision alignment.</description>
 <connect gate="G$1" pin="1.8V" pad="12"/>
 <connect gate="G$1" pin="3.3V@1" pad="8"/>
 <connect gate="G$1" pin="3.3V@2" pad="10"/>
+<connect gate="G$1" pin="DCIN" pad="14"/>
 <connect gate="G$1" pin="FAULT" pad="19"/>
 <connect gate="G$1" pin="FW_RCVR" pad="69"/>
 <connect gate="G$1" pin="GND@1" pad="1"/>
@@ -16476,6 +16483,7 @@ Various fiducial points for machine vision alignment.</description>
 <connect gate="G$1" pin="1.8V" pad="12"/>
 <connect gate="G$1" pin="3.3V@1" pad="8"/>
 <connect gate="G$1" pin="3.3V@2" pad="10"/>
+<connect gate="G$1" pin="DCIN" pad="14"/>
 <connect gate="G$1" pin="FAULT" pad="19"/>
 <connect gate="G$1" pin="FW_RCVR" pad="69"/>
 <connect gate="G$1" pin="GND@1" pad="1"/>
@@ -18102,8 +18110,8 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="1.8V" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="200KOHM1/10W1%(0603)" device="200K" value="200k"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="2.2KOHM1/10W1%(0603)" device="" value="2.2k"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="2.2KOHM1/10W1%(0603)" device="" value="2.2k"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="2.2KOHM1/10W1%(0603)" device="" value="DNP"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="2.2KOHM1/10W1%(0603)" device="" value="DNP"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -18132,7 +18140,7 @@ SJ4</text>
 1001001 (0x73)
 1001010 (0x74)
 1001011 (0x75)</text>
-<text x="237.744" y="6.604" size="3.81" layer="95">01</text>
+<text x="237.744" y="6.604" size="2.54" layer="94">v02</text>
 <text x="165.1" y="7.62" size="3.81" layer="95">M Hord</text>
 </plain>
 <instances>
@@ -19198,6 +19206,18 @@ SJ4</text>
 <pinref part="U$3" gate="G$1" pin="OSC_CLK_OUT_0"/>
 <wire x1="220.98" y1="152.4" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
 <label x="223.52" y="152.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="DCIN" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="DCIN"/>
+<wire x1="172.72" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
+<label x="170.18" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="DCIN"/>
+<wire x1="25.4" y1="152.4" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
+<label x="22.86" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
