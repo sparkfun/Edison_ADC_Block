@@ -30,7 +30,7 @@
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -185,12 +185,16 @@ AIN1</text>
 AIN0</text>
 <text x="24.13" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">GND</text>
 <text x="29.972" y="26.416" size="1.27" layer="21" font="vector" ratio="15" rot="R90">ADC Block</text>
-<text x="6.35" y="20.32" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">SJ1</text>
-<text x="8.89" y="20.32" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">SJ2</text>
-<text x="11.43" y="20.32" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">SJ3</text>
-<text x="13.97" y="20.32" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">SJ4</text>
 <text x="31.75" y="-2.54" size="1.778" layer="51" ratio="15">NOTE: Units are in Inches</text>
 <text x="29.972" y="36.068" size="1.27" layer="22" font="vector" ratio="15" rot="SMR270">ADC Block</text>
+<wire x1="13.716" y1="14.097" x2="13.716" y2="13.589" width="0.1524" layer="41"/>
+<text x="6.35" y="20.066" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center-left">0x48</text>
+<text x="8.89" y="20.066" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center-left">0x49</text>
+<text x="11.43" y="20.066" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center-left">0x4A</text>
+<text x="14.097" y="20.066" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center-left">0x4B</text>
+<text x="2.921" y="20.066" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center-left">I2C ADDR
+CLOSE ONE
+ONLY</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
