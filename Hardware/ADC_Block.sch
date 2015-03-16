@@ -18469,7 +18469,7 @@ SJ4</text>
 1001001 (0x49)
 1001010 (0x4A)
 1001011 (0x4B)</text>
-<text x="237.744" y="6.604" size="2.54" layer="94">v10</text>
+<text x="237.744" y="6.604" size="2.54" layer="94">v20</text>
 <text x="165.1" y="7.62" size="3.81" layer="94">M Hord</text>
 </plain>
 <instances>

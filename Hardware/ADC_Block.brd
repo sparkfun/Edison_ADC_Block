@@ -159,7 +159,7 @@
 <rectangle x1="22.098" y1="26.162" x2="30.48" y2="44.45" layer="42" rot="R180"/>
 <rectangle x1="22.098" y1="26.162" x2="30.48" y2="44.45" layer="41" rot="R180"/>
 <text x="29.21" y="6.35" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center">4xM2.0</text>
-<text x="30.099" y="3.81" size="1.016" layer="1" font="vector" ratio="15" rot="R90">v10</text>
+<text x="30.099" y="3.81" size="1.016" layer="1" font="vector" ratio="15" rot="R90">v20</text>
 <text x="8.89" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">GND</text>
 <text x="13.97" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">3.3V</text>
 <text x="19.05" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">GND</text>
