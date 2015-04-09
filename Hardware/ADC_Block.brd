@@ -2398,7 +2398,7 @@ design rules under a new name.</description>
 </elements>
 <signals>
 <signal name="GND">
-<polygon width="0.1524" layer="16" spacing="0.254" isolate="0.2032" rank="6">
+<polygon width="0.1524" layer="16" spacing="0.254" isolate="0.0508" rank="6">
 <vertex x="30.48" y="42.672"/>
 <vertex x="30.48" y="1.778" curve="-90"/>
 <vertex x="28.702" y="0"/>
@@ -2408,7 +2408,7 @@ design rules under a new name.</description>
 <vertex x="1.778" y="44.45"/>
 <vertex x="28.702" y="44.45" curve="-90"/>
 </polygon>
-<polygon width="0.1524" layer="1" spacing="0.254" isolate="0.2032" rank="6">
+<polygon width="0.1524" layer="1" spacing="0.254" isolate="0.0508" rank="6">
 <vertex x="30.48" y="1.728" curve="-90"/>
 <vertex x="28.752" y="0"/>
 <vertex x="1.778" y="0" curve="-90"/>
@@ -2458,19 +2458,6 @@ design rules under a new name.</description>
 <wire x1="13.462" y1="13.7938" x2="13.462" y2="14.605" width="0.2032" layer="1"/>
 <via x="9.144" y="13.716" extent="1-16" drill="0.508"/>
 <wire x1="16.02" y1="33.02" x2="14.986" y2="33.02" width="0.2032" layer="1"/>
-<wire x1="25.96" y1="22.9798" x2="25.96" y2="22.98" width="0" layer="19" extent="1-16"/>
-<wire x1="25.96" y1="22.18" x2="25.96" y2="22.98" width="0" layer="19" extent="16-16"/>
-<wire x1="25.96" y1="22.1798" x2="25.96" y2="22.18" width="0" layer="19" extent="1-16"/>
-<wire x1="25.96" y1="21.38" x2="25.96" y2="22.18" width="0" layer="19" extent="16-16"/>
-<wire x1="25.96" y1="21.3798" x2="25.96" y2="21.38" width="0" layer="19" extent="1-16"/>
-<wire x1="25.96" y1="20.98" x2="25.96" y2="21.38" width="0" layer="19" extent="16-16"/>
-<wire x1="25.96" y1="20.9798" x2="25.96" y2="20.98" width="0" layer="19" extent="1-16"/>
-<wire x1="25.96" y1="20.58" x2="25.96" y2="20.98" width="0" layer="19" extent="16-16"/>
-<wire x1="25.96" y1="20.5798" x2="25.96" y2="20.58" width="0" layer="19" extent="1-16"/>
-<wire x1="25.96" y1="20.18" x2="25.96" y2="20.58" width="0" layer="19" extent="16-16"/>
-<wire x1="25.96" y1="20.1798" x2="25.96" y2="20.18" width="0" layer="19" extent="1-16"/>
-<wire x1="27.1272" y1="20.5232" x2="25.96" y2="20.58" width="0" layer="19" extent="16-16"/>
-<wire x1="28.2448" y1="22.1742" x2="27.1272" y2="20.5232" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VSYS">
 <contactref element="JP2" pad="6"/>
