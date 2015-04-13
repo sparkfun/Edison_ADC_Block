@@ -18705,6 +18705,8 @@ SJ4</text>
 <text x="237.744" y="6.604" size="2.54" layer="94">v20</text>
 <text x="165.1" y="7.62" size="3.81" layer="94">M Hord</text>
 <text x="172.72" y="38.1" size="1.778" layer="94">Revised 3/15 - Casey (adding Vref 3.3V, IC still uses internal VREF)</text>
+<text x="215.9" y="73.66" size="1.27" layer="91" rot="R180">Note: Bus Selection
+Default to I2C-1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
