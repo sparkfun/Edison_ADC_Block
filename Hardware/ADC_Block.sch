@@ -16816,6 +16816,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 <circle x="0" y="0" radius="1.74625" width="0.2032" layer="21"/>
 </package>
+<package name="PAD-JUMPER-3-2OF3_NC_BY_PASTE_YES_SILK_FULL_BOX">
+<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.524" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="0.762" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.016" x2="1.524" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.508" x2="-0.1905" y2="0.508" width="0.127" layer="51"/>
+<wire x1="-0.1905" y1="0.508" x2="-0.1905" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="-0.1905" y1="-0.508" x2="1.016" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="1.016" y1="-0.508" x2="1.016" y2="0.508" width="0.127" layer="51"/>
+<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="0.0635" y="-0.4445" size="0.254" layer="51" rot="R40">PASTE</text>
+<rectangle x1="-0.2794" y1="-1.016" x2="1.4224" y2="0.9906" layer="31"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PAD-JUMPER-2-NC_BY_PASTE">
@@ -16838,6 +16860,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="PAD-JUMPER-3-2OF3-NC_BY_PASTE">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<polygon width="0.254" layer="95">
+<vertex x="-1.524" y="0.762"/>
+<vertex x="-1.524" y="-1.524" curve="90"/>
+<vertex x="0" y="-3.048" curve="90"/>
+<vertex x="1.524" y="-1.524"/>
+<vertex x="1.524" y="0.762"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -16893,6 +16938,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-PAD-3-2OF3_NC_BY_PASTE" prefix="SJ">
+<gates>
+<gate name="G$1" symbol="PAD-JUMPER-3-2OF3-NC_BY_PASTE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PAD-JUMPER-3-2OF3_NC_BY_PASTE_YES_SILK_FULL_BOX">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18622,6 +18684,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="SJ5" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_PASTE" device="" value="SDA_SEL"/>
+<part name="SJ6" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_PASTE" device="" value="SCL_SEL"/>
 </parts>
 <sheets>
 <sheet>
@@ -18690,6 +18754,8 @@ SJ4</text>
 <instance part="GND8" gate="1" x="78.74" y="132.08"/>
 <instance part="GND9" gate="1" x="88.9" y="132.08"/>
 <instance part="GND10" gate="1" x="114.3" y="132.08"/>
+<instance part="SJ5" gate="G$1" x="218.44" y="76.2"/>
+<instance part="SJ6" gate="G$1" x="218.44" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -18823,26 +18889,12 @@ SJ4</text>
 <label x="35.56" y="43.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="GP19_I2C_1_SCL" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="SCL1"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="93.98" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="93.98" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
-<junction x="200.66" y="93.98"/>
-<label x="213.36" y="93.98" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="GP20_I2C_1_SDA" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="SDA1"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="91.44" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
-<junction x="208.28" y="91.44"/>
-<label x="213.36" y="91.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="SJ5" gate="G$1" pin="3"/>
+<wire x1="218.44" y1="71.12" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="68.58" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
+<label x="220.98" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ADDR" class="0">
@@ -18976,6 +19028,53 @@ SJ4</text>
 <wire x1="114.3" y1="149.86" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
 <junction x="114.3" y="149.86"/>
 <label x="119.38" y="149.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="SCL1"/>
+<pinref part="SJ6" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="93.98" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="104.14" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
+<junction x="200.66" y="93.98"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="104.14" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="SDA1"/>
+<wire x1="208.28" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="SJ5" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="91.44" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
+<junction x="208.28" y="91.44"/>
+</segment>
+</net>
+<net name="GP28_I2C_6_SDA" class="0">
+<segment>
+<pinref part="SJ5" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="81.28" x2="218.44" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
+<label x="220.98" y="83.82" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="GP19_I2C_1_SCL" class="0">
+<segment>
+<pinref part="SJ6" gate="G$1" pin="3"/>
+<wire x1="218.44" y1="88.9" x2="218.44" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
+<label x="220.98" y="86.36" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="GP27_I2C_6_SCL" class="0">
+<segment>
+<pinref part="SJ6" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="99.06" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
+<label x="220.98" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
