@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,7 +9,7 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
@@ -17,9 +17,9 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -34,9 +34,10 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -55,7 +56,6 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -99,7 +99,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
@@ -135,19 +135,19 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
 <plain>
@@ -176,25 +176,17 @@
 <text x="13.97" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">3.3V</text>
 <text x="19.05" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">GND</text>
 <text x="24.13" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">3.3V</text>
-<text x="6.35" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">A1-
-AIN3</text>
-<text x="11.43" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">A1+
-AIN2</text>
-<text x="16.51" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">A0-
-AIN1</text>
-<text x="21.59" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">A0+
-AIN0</text>
-<text x="6.35" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">A1-
-AIN3</text>
+<text x="6.35" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">AIN3</text>
+<text x="11.43" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">AIN2</text>
+<text x="16.51" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">AIN1</text>
+<text x="21.59" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">AIN0</text>
+<text x="6.35" y="41.91" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">AIN3</text>
 <text x="8.89" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">GND</text>
-<text x="11.43" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">A1+
-AIN2</text>
+<text x="11.43" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">AIN2</text>
 <text x="13.97" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">3.3V</text>
-<text x="16.51" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">A0-
-AIN1</text>
+<text x="16.51" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">AIN1</text>
 <text x="19.05" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">GND</text>
-<text x="21.59" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">A0+
-AIN0</text>
+<text x="21.59" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">AIN0</text>
 <text x="24.13" y="41.91" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">3.3V</text>
 <text x="29.972" y="26.416" size="1.27" layer="21" font="vector" ratio="15" rot="R90">ADC Block</text>
 <text x="31.75" y="-2.54" size="1.778" layer="51" ratio="15">NOTE: Units are in Inches</text>
@@ -211,6 +203,12 @@ ONLY</text>
 <text x="16.383" y="12.192" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">I2C-1</text>
 <text x="17.526" y="12.192" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">I2C-6</text>
 <wire x1="13.2334" y1="14.0208" x2="13.2334" y2="13.5763" width="0.127" layer="41"/>
+<text x="21.59" y="27.686" size="1.016" layer="21" font="vector" ratio="15">DIFF
+CH + -
+ 0 0 1
+ 1 0 3
+ 2 1 3
+ 3 2 3</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
