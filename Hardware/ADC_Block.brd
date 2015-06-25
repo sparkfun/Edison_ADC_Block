@@ -2434,8 +2434,8 @@ design rules under a new name.</description>
 <element name="C4" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="19.558" y="25.4">
 <attribute name="PROD_ID" value="CAP-00810" x="19.558" y="25.4" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="20.193" y="30.48" rot="R180">
-<attribute name="PROD_ID" value="CAP-00810" x="20.193" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C5" library="SparkFun-Capacitors" package="0603-CAP" value="2.2uF" x="20.193" y="30.48" rot="R180">
+<attribute name="PROD_ID" value="CAP-07888" x="20.193" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SJ5" library="SparkFun-Passives" package="PAD-JUMPER-3-2OF3_NC_BY_PASTE_YES_SILK_FULL_BOX" value="SDA_SEL" x="16.637" y="8.763" rot="R180"/>
 <element name="SJ6" library="SparkFun-Passives" package="PAD-JUMPER-3-2OF3_NC_BY_PASTE_YES_SILK_FULL_BOX" value="SCL_SEL" x="16.637" y="10.922" rot="R180"/>
