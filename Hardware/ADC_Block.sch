@@ -90,7 +90,9 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="11" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -161,9 +163,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
 <package name="OSHW-LOGO-S">
 <polygon width="0.15" layer="21">
@@ -200,43 +202,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
 <vertex x="-0.4688" y="0" curve="-247.473915"/>
 <vertex x="0.1794" y="-0.4331"/>
-</polygon>
-</package>
-<package name="OSHW-LOGO-M">
-<polygon width="0.15" layer="21">
-<vertex x="0.6578" y="-1.588" curve="9.499253"/>
-<vertex x="0.9108" y="-1.4576"/>
-<vertex x="1.5392" y="-1.97"/>
-<vertex x="1.97" y="-1.5392"/>
-<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
-<vertex x="1.6747" y="-0.3866"/>
-<vertex x="2.4814" y="-0.3047"/>
-<vertex x="2.4814" y="0.3047"/>
-<vertex x="1.6747" y="0.3866" curve="19.001165"/>
-<vertex x="1.4576" y="0.9108"/>
-<vertex x="1.97" y="1.5392"/>
-<vertex x="1.5392" y="1.97"/>
-<vertex x="0.9108" y="1.4576" curve="19.001165"/>
-<vertex x="0.3866" y="1.6747"/>
-<vertex x="0.3047" y="2.4814"/>
-<vertex x="-0.3047" y="2.4814"/>
-<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
-<vertex x="-0.9108" y="1.4576"/>
-<vertex x="-1.5392" y="1.97"/>
-<vertex x="-1.97" y="1.5392"/>
-<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
-<vertex x="-1.6747" y="0.3866"/>
-<vertex x="-2.4814" y="0.3047"/>
-<vertex x="-2.4814" y="-0.3047"/>
-<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
-<vertex x="-1.4576" y="-0.9108"/>
-<vertex x="-1.97" y="-1.5392"/>
-<vertex x="-1.5392" y="-1.97"/>
-<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
-<vertex x="-0.6578" y="-1.588"/>
-<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
-<vertex x="-0.7813" y="0" curve="-247.497552"/>
-<vertex x="0.299" y="-0.7218"/>
 </polygon>
 </package>
 <package name="OSHW-LOGO-L">
@@ -277,7 +242,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.1">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="0.81" y="1.4"/>
 <vertex x="0.81" y="1.34"/>
 <vertex x="0.83" y="1.29"/>
@@ -391,7 +356,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.71" y="1.4"/>
 <vertex x="0.76" y="1.4"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="2.91" y="1.4"/>
 <vertex x="2.94" y="1.48"/>
 <vertex x="2.95" y="1.56"/>
@@ -401,7 +366,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.3" y="1.36"/>
 <vertex x="3.25" y="1.24"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.25" y="1.24"/>
 <vertex x="3.19" y="1.13"/>
 <vertex x="3.1" y="1.04"/>
@@ -504,7 +469,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.88" y="1.33"/>
 <vertex x="2.91" y="1.4"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.93" y="1.75"/>
 <vertex x="4.02" y="1.76"/>
 <vertex x="4.11" y="1.77"/>
@@ -521,7 +486,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="4.03" y="1.54"/>
 <vertex x="4.01" y="1.54"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="4.01" y="1.54"/>
 <vertex x="3.98" y="1.53"/>
 <vertex x="3.96" y="1.52"/>
@@ -780,7 +745,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.84" y="1.74"/>
 <vertex x="3.93" y="1.75"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="5" y="2.29"/>
 <vertex x="5.05" y="2.3"/>
 <vertex x="5.09" y="2.31"/>
@@ -862,7 +827,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="5" y="1.95"/>
 <vertex x="5" y="2.12"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="6.06" y="2.68"/>
 <vertex x="6.45" y="2.89"/>
 <vertex x="6.45" y="1.85"/>
@@ -876,7 +841,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="6.45" y="0.94"/>
 <vertex x="6.06" y="0.94"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="7.7" y="2.1"/>
 <vertex x="7.65" y="2.1"/>
 <vertex x="7.6" y="2.1"/>
@@ -1006,7 +971,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.7" y="1.81"/>
 <vertex x="7.7" y="1.95"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="9.79" y="0.94"/>
 <vertex x="9.74" y="0.94"/>
 <vertex x="9.7" y="0.94"/>
@@ -1105,7 +1070,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="9.79" y="1.29"/>
 <vertex x="9.79" y="1.12"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="10" y="2.36"/>
 <vertex x="10.05" y="2.36"/>
 <vertex x="10.1" y="2.36"/>
@@ -1204,7 +1169,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="10" y="2"/>
 <vertex x="10" y="2.18"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="8.25" y="4.78"/>
 <vertex x="8.25" y="4.76"/>
 <vertex x="8.25" y="4.73"/>
@@ -1341,8 +1306,156 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="DUMMY">
 <description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
 </package>
+<package name="OSHW-LOGO-S_COPPER">
+<polygon width="0.15" layer="1">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-M_COPPER">
+<polygon width="0.15" layer="1">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-L_COPPER">
+<polygon width="0.15" layer="1">
+<vertex x="0.9209" y="-2.2231" curve="9.497479"/>
+<vertex x="1.2751" y="-2.0407"/>
+<vertex x="2.1548" y="-2.758"/>
+<vertex x="2.758" y="-2.1548"/>
+<vertex x="2.0407" y="-1.2751" curve="18.998791"/>
+<vertex x="2.3446" y="-0.5413"/>
+<vertex x="3.4739" y="-0.4265"/>
+<vertex x="3.4739" y="0.4265"/>
+<vertex x="2.3446" y="0.5413" curve="18.998791"/>
+<vertex x="2.0407" y="1.2751"/>
+<vertex x="2.758" y="2.1548"/>
+<vertex x="2.1548" y="2.758"/>
+<vertex x="1.2751" y="2.0407" curve="18.998791"/>
+<vertex x="0.5413" y="2.3446"/>
+<vertex x="0.4265" y="3.4739"/>
+<vertex x="-0.4265" y="3.4739"/>
+<vertex x="-0.5413" y="2.3446" curve="18.998791"/>
+<vertex x="-1.2751" y="2.0407"/>
+<vertex x="-2.1548" y="2.758"/>
+<vertex x="-2.758" y="2.1548"/>
+<vertex x="-2.0407" y="1.2751" curve="18.998791"/>
+<vertex x="-2.3446" y="0.5413"/>
+<vertex x="-3.4739" y="0.4265"/>
+<vertex x="-3.4739" y="-0.4265"/>
+<vertex x="-2.3446" y="-0.5413" curve="18.998791"/>
+<vertex x="-2.0407" y="-1.2751"/>
+<vertex x="-2.758" y="-2.1548"/>
+<vertex x="-2.1548" y="-2.758"/>
+<vertex x="-1.2751" y="-2.0407" curve="9.497479"/>
+<vertex x="-0.9209" y="-2.2231"/>
+<vertex x="-0.4186" y="-1.0105" curve="-67.504205"/>
+<vertex x="-1.0938" y="0" curve="-247.497204"/>
+<vertex x="0.4186" y="-1.0105"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-M">
+<polygon width="0.0762" layer="21">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
 <package name="SFE_LOGO_NAME_FLAME_.2">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="1.45" y="2.7"/>
 <vertex x="1.46" y="2.59"/>
 <vertex x="1.5" y="2.49"/>
@@ -1456,7 +1569,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.27" y="2.7"/>
 <vertex x="1.36" y="2.7"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="5.66" y="2.71"/>
 <vertex x="5.71" y="2.86"/>
 <vertex x="5.73" y="3.02"/>
@@ -1466,7 +1579,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="6.44" y="2.62"/>
 <vertex x="6.35" y="2.38"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="6.35" y="2.38"/>
 <vertex x="6.21" y="2.16"/>
 <vertex x="6.04" y="1.97"/>
@@ -1568,7 +1681,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="5.6" y="2.57"/>
 <vertex x="5.66" y="2.71"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="7.7" y="3.41"/>
 <vertex x="7.88" y="3.43"/>
 <vertex x="8.05" y="3.45"/>
@@ -1585,7 +1698,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.89" y="2.98"/>
 <vertex x="7.85" y="2.97"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="7.85" y="2.97"/>
 <vertex x="7.81" y="2.96"/>
 <vertex x="7.77" y="2.94"/>
@@ -1848,7 +1961,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.52" y="3.38"/>
 <vertex x="7.7" y="3.41"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="9.84" y="4.48"/>
 <vertex x="9.93" y="4.5"/>
 <vertex x="10.03" y="4.51"/>
@@ -1930,7 +2043,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="9.83" y="3.81"/>
 <vertex x="9.83" y="4.14"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="11.96" y="5.26"/>
 <vertex x="12.74" y="5.69"/>
 <vertex x="12.74" y="3.6"/>
@@ -1944,7 +2057,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="12.74" y="1.79"/>
 <vertex x="11.96" y="1.79"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="15.23" y="4.09"/>
 <vertex x="15.13" y="4.09"/>
 <vertex x="15.04" y="4.09"/>
@@ -2074,7 +2187,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="15.23" y="3.52"/>
 <vertex x="15.23" y="3.81"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="19.41" y="1.79"/>
 <vertex x="19.32" y="1.79"/>
 <vertex x="19.23" y="1.79"/>
@@ -2172,7 +2285,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="19.42" y="2.49"/>
 <vertex x="19.42" y="2.14"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="19.84" y="4.61"/>
 <vertex x="19.93" y="4.61"/>
 <vertex x="20.03" y="4.61"/>
@@ -2271,7 +2384,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="19.83" y="3.91"/>
 <vertex x="19.83" y="4.26"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="16.33" y="9.47"/>
 <vertex x="16.33" y="9.45"/>
 <vertex x="16.34" y="9.42"/>
@@ -2403,7 +2516,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.3">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="1.69" y="4.06"/>
 <vertex x="1.71" y="3.88"/>
 <vertex x="1.77" y="3.74"/>
@@ -2517,7 +2630,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.42" y="4.06"/>
 <vertex x="1.56" y="4.06"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="8.01" y="4.06"/>
 <vertex x="8.08" y="4.29"/>
 <vertex x="8.12" y="4.53"/>
@@ -2527,7 +2640,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="9.18" y="3.94"/>
 <vertex x="9.04" y="3.56"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="9.04" y="3.56"/>
 <vertex x="8.83" y="3.24"/>
 <vertex x="8.57" y="2.96"/>
@@ -2630,7 +2743,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.91" y="3.86"/>
 <vertex x="8.01" y="4.06"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="11.07" y="5.11"/>
 <vertex x="11.33" y="5.15"/>
 <vertex x="11.59" y="5.18"/>
@@ -2647,7 +2760,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="11.35" y="4.48"/>
 <vertex x="11.29" y="4.46"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="11.29" y="4.46"/>
 <vertex x="11.23" y="4.44"/>
 <vertex x="11.17" y="4.42"/>
@@ -2910,7 +3023,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="10.8" y="5.07"/>
 <vertex x="11.07" y="5.11"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="14.28" y="6.72"/>
 <vertex x="14.42" y="6.75"/>
 <vertex x="14.56" y="6.77"/>
@@ -2992,7 +3105,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="14.27" y="5.71"/>
 <vertex x="14.27" y="6.22"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="17.46" y="7.9"/>
 <vertex x="18.63" y="8.54"/>
 <vertex x="18.63" y="5.39"/>
@@ -3006,7 +3119,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="18.63" y="2.68"/>
 <vertex x="17.46" y="2.68"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="22.36" y="6.14"/>
 <vertex x="22.22" y="6.14"/>
 <vertex x="22.08" y="6.14"/>
@@ -3136,7 +3249,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="22.36" y="5.28"/>
 <vertex x="22.36" y="5.71"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="28.64" y="2.68"/>
 <vertex x="28.5" y="2.68"/>
 <vertex x="28.36" y="2.68"/>
@@ -3235,7 +3348,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="28.65" y="3.74"/>
 <vertex x="28.65" y="3.21"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="29.28" y="6.92"/>
 <vertex x="29.42" y="6.92"/>
 <vertex x="29.56" y="6.92"/>
@@ -3334,7 +3447,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="29.27" y="5.86"/>
 <vertex x="29.27" y="6.39"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="24.01" y="14.2"/>
 <vertex x="24.02" y="14.18"/>
 <vertex x="24.03" y="14.13"/>
@@ -3467,7 +3580,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.4">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="2.21" y="5.41"/>
 <vertex x="2.24" y="5.18"/>
 <vertex x="2.31" y="4.98"/>
@@ -3581,7 +3694,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.84" y="5.41"/>
 <vertex x="2.03" y="5.41"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="10.64" y="5.41"/>
 <vertex x="10.73" y="5.72"/>
 <vertex x="10.78" y="6.04"/>
@@ -3591,7 +3704,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="12.2" y="5.25"/>
 <vertex x="12" y="4.75"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="12" y="4.75"/>
 <vertex x="11.73" y="4.31"/>
 <vertex x="11.38" y="3.95"/>
@@ -3695,7 +3808,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="10.51" y="5.14"/>
 <vertex x="10.64" y="5.41"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="14.71" y="6.82"/>
 <vertex x="15.07" y="6.86"/>
 <vertex x="15.41" y="6.9"/>
@@ -3712,7 +3825,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="15.09" y="5.97"/>
 <vertex x="15.01" y="5.95"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="15.01" y="5.95"/>
 <vertex x="14.92" y="5.92"/>
 <vertex x="14.84" y="5.89"/>
@@ -3975,7 +4088,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="14.36" y="6.76"/>
 <vertex x="14.71" y="6.82"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="18.99" y="8.97"/>
 <vertex x="19.18" y="9"/>
 <vertex x="19.36" y="9.03"/>
@@ -4058,7 +4171,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="18.98" y="7.62"/>
 <vertex x="18.98" y="8.29"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="23.24" y="10.53"/>
 <vertex x="24.79" y="11.38"/>
 <vertex x="24.79" y="7.19"/>
@@ -4072,7 +4185,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="24.79" y="3.57"/>
 <vertex x="23.24" y="3.57"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="29.77" y="8.19"/>
 <vertex x="29.58" y="8.19"/>
 <vertex x="29.39" y="8.19"/>
@@ -4202,7 +4315,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="29.77" y="7.04"/>
 <vertex x="29.77" y="7.61"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="38.14" y="3.57"/>
 <vertex x="37.95" y="3.57"/>
 <vertex x="37.77" y="3.57"/>
@@ -4302,7 +4415,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="38.15" y="4.99"/>
 <vertex x="38.15" y="4.28"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="39" y="9.23"/>
 <vertex x="39.18" y="9.23"/>
 <vertex x="39.36" y="9.23"/>
@@ -4402,7 +4515,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="38.98" y="7.82"/>
 <vertex x="38.98" y="8.52"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="31.97" y="18.94"/>
 <vertex x="31.98" y="18.91"/>
 <vertex x="31.99" y="18.84"/>
@@ -4534,7 +4647,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.5">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="2.68" y="6.81"/>
 <vertex x="2.71" y="6.52"/>
 <vertex x="2.81" y="6.28"/>
@@ -4648,7 +4761,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.22" y="6.82"/>
 <vertex x="2.45" y="6.82"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="13.22" y="6.82"/>
 <vertex x="13.33" y="7.2"/>
 <vertex x="13.39" y="7.61"/>
@@ -4658,7 +4771,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="15.16" y="6.61"/>
 <vertex x="14.92" y="5.99"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="14.92" y="5.99"/>
 <vertex x="14.58" y="5.44"/>
 <vertex x="14.15" y="4.98"/>
@@ -4763,7 +4876,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="13.05" y="6.48"/>
 <vertex x="13.22" y="6.82"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="18.31" y="8.57"/>
 <vertex x="18.75" y="8.63"/>
 <vertex x="19.17" y="8.68"/>
@@ -4780,7 +4893,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="18.78" y="7.52"/>
 <vertex x="18.67" y="7.49"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="18.67" y="7.49"/>
 <vertex x="18.57" y="7.45"/>
 <vertex x="18.47" y="7.42"/>
@@ -5043,7 +5156,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="17.87" y="8.5"/>
 <vertex x="18.31" y="8.57"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="23.66" y="11.26"/>
 <vertex x="23.89" y="11.3"/>
 <vertex x="24.12" y="11.34"/>
@@ -5127,7 +5240,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="23.64" y="9.57"/>
 <vertex x="23.64" y="10.41"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="28.96" y="13.22"/>
 <vertex x="30.9" y="14.28"/>
 <vertex x="30.9" y="9.04"/>
@@ -5141,7 +5254,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="30.9" y="4.52"/>
 <vertex x="28.96" y="4.52"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="37.13" y="10.29"/>
 <vertex x="36.89" y="10.29"/>
 <vertex x="36.65" y="10.29"/>
@@ -5271,7 +5384,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="37.13" y="8.84"/>
 <vertex x="37.13" y="9.57"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="47.59" y="4.52"/>
 <vertex x="47.36" y="4.52"/>
 <vertex x="47.13" y="4.52"/>
@@ -5371,7 +5484,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="47.61" y="6.28"/>
 <vertex x="47.61" y="5.4"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="48.66" y="11.59"/>
 <vertex x="48.89" y="11.59"/>
 <vertex x="49.12" y="11.59"/>
@@ -5472,7 +5585,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="48.64" y="9.82"/>
 <vertex x="48.64" y="10.7"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="39.88" y="23.72"/>
 <vertex x="39.89" y="23.69"/>
 <vertex x="39.9" y="23.6"/>
@@ -5606,7 +5719,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.6">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.1" y="8.42"/>
 <vertex x="3.14" y="8.07"/>
 <vertex x="3.25" y="7.77"/>
@@ -5720,7 +5833,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.55" y="8.42"/>
 <vertex x="2.82" y="8.42"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="15.74" y="8.42"/>
 <vertex x="15.88" y="8.88"/>
 <vertex x="15.95" y="9.37"/>
@@ -5730,7 +5843,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="18.08" y="8.17"/>
 <vertex x="17.79" y="7.43"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="17.79" y="7.43"/>
 <vertex x="17.38" y="6.77"/>
 <vertex x="16.86" y="6.22"/>
@@ -5835,7 +5948,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="15.54" y="8.02"/>
 <vertex x="15.74" y="8.42"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="21.85" y="10.53"/>
 <vertex x="22.38" y="10.59"/>
 <vertex x="22.89" y="10.65"/>
@@ -5852,7 +5965,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="22.42" y="9.26"/>
 <vertex x="22.29" y="9.22"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="22.29" y="9.22"/>
 <vertex x="22.16" y="9.18"/>
 <vertex x="22.05" y="9.14"/>
@@ -6115,7 +6228,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="21.32" y="10.44"/>
 <vertex x="21.85" y="10.53"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="28.27" y="13.75"/>
 <vertex x="28.55" y="13.8"/>
 <vertex x="28.83" y="13.85"/>
@@ -6198,7 +6311,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="28.25" y="11.72"/>
 <vertex x="28.25" y="12.73"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="34.64" y="16.1"/>
 <vertex x="36.97" y="17.38"/>
 <vertex x="36.97" y="11.09"/>
@@ -6212,7 +6325,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="36.97" y="5.66"/>
 <vertex x="34.64" y="5.66"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="44.44" y="12.59"/>
 <vertex x="44.15" y="12.59"/>
 <vertex x="43.86" y="12.59"/>
@@ -6342,7 +6455,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="44.44" y="10.85"/>
 <vertex x="44.44" y="11.72"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="56.99" y="5.66"/>
 <vertex x="56.71" y="5.66"/>
 <vertex x="56.43" y="5.66"/>
@@ -6443,7 +6556,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="57.01" y="7.78"/>
 <vertex x="57.01" y="6.72"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="58.27" y="14.14"/>
 <vertex x="58.55" y="14.14"/>
 <vertex x="58.83" y="14.14"/>
@@ -6544,7 +6657,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="58.25" y="12.03"/>
 <vertex x="58.25" y="13.09"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="47.74" y="28.7"/>
 <vertex x="47.75" y="28.66"/>
 <vertex x="47.76" y="28.56"/>
@@ -6680,7 +6793,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.7">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.67" y="9.52"/>
 <vertex x="3.71" y="9.11"/>
 <vertex x="3.85" y="8.77"/>
@@ -6794,7 +6907,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.02" y="9.52"/>
 <vertex x="3.34" y="9.52"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="18.42" y="9.53"/>
 <vertex x="18.57" y="10.06"/>
 <vertex x="18.66" y="10.63"/>
@@ -6804,7 +6917,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="21.14" y="9.24"/>
 <vertex x="20.8" y="8.37"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="20.8" y="8.37"/>
 <vertex x="20.33" y="7.6"/>
 <vertex x="19.72" y="6.96"/>
@@ -6914,7 +7027,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="18.18" y="9.05"/>
 <vertex x="18.42" y="9.53"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="25.54" y="11.98"/>
 <vertex x="26.16" y="12.06"/>
 <vertex x="26.76" y="12.13"/>
@@ -6931,7 +7044,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="26.21" y="10.5"/>
 <vertex x="26.06" y="10.46"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="26.06" y="10.46"/>
 <vertex x="25.91" y="10.42"/>
 <vertex x="25.77" y="10.36"/>
@@ -7194,7 +7307,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="24.93" y="11.88"/>
 <vertex x="25.54" y="11.98"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="33.03" y="15.74"/>
 <vertex x="33.36" y="15.8"/>
 <vertex x="33.68" y="15.86"/>
@@ -7278,7 +7391,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="33.01" y="13.38"/>
 <vertex x="33.01" y="14.56"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="40.46" y="18.48"/>
 <vertex x="43.18" y="19.97"/>
 <vertex x="43.18" y="12.64"/>
@@ -7292,7 +7405,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="43.18" y="6.31"/>
 <vertex x="40.46" y="6.31"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="51.89" y="14.38"/>
 <vertex x="51.56" y="14.38"/>
 <vertex x="51.22" y="14.38"/>
@@ -7422,7 +7535,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="51.89" y="12.36"/>
 <vertex x="51.89" y="13.37"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="66.54" y="6.3"/>
 <vertex x="66.21" y="6.3"/>
 <vertex x="65.89" y="6.3"/>
@@ -7523,7 +7636,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="66.57" y="8.78"/>
 <vertex x="66.57" y="7.54"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="68.04" y="16.2"/>
 <vertex x="68.36" y="16.2"/>
 <vertex x="68.68" y="16.2"/>
@@ -7624,7 +7737,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="68.01" y="13.73"/>
 <vertex x="68.01" y="14.97"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="55.75" y="33.19"/>
 <vertex x="55.75" y="33.14"/>
 <vertex x="55.78" y="33.02"/>
@@ -7762,7 +7875,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.8">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="5.12" y="10.49"/>
 <vertex x="5.17" y="10.03"/>
 <vertex x="5.32" y="9.63"/>
@@ -7878,7 +7991,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="4.38" y="10.49"/>
 <vertex x="4.75" y="10.49"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="21.97" y="10.5"/>
 <vertex x="22.15" y="11.11"/>
 <vertex x="22.25" y="11.76"/>
@@ -7891,7 +8004,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="25.04" y="10.04"/>
 <vertex x="24.7" y="9.18"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="24.7" y="9.18"/>
 <vertex x="24.64" y="9.06"/>
 <vertex x="24.16" y="8.3"/>
@@ -8009,7 +8122,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="21.7" y="9.96"/>
 <vertex x="21.97" y="10.5"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="30.12" y="13.31"/>
 <vertex x="30.82" y="13.4"/>
 <vertex x="31.5" y="13.48"/>
@@ -8026,7 +8139,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="30.87" y="11.61"/>
 <vertex x="30.7" y="11.57"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="30.7" y="11.57"/>
 <vertex x="30.54" y="11.52"/>
 <vertex x="30.38" y="11.46"/>
@@ -8289,7 +8402,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="29.41" y="13.19"/>
 <vertex x="30.12" y="13.31"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="38.68" y="17.6"/>
 <vertex x="39.05" y="17.67"/>
 <vertex x="39.42" y="17.73"/>
@@ -8373,7 +8486,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="38.65" y="14.9"/>
 <vertex x="38.65" y="16.25"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="47.16" y="20.74"/>
 <vertex x="50.27" y="22.44"/>
 <vertex x="50.27" y="14.06"/>
@@ -8387,7 +8500,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="50.27" y="6.82"/>
 <vertex x="47.16" y="6.82"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="60.23" y="16.05"/>
 <vertex x="59.85" y="16.05"/>
 <vertex x="59.47" y="16.05"/>
@@ -8517,7 +8630,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="60.23" y="13.74"/>
 <vertex x="60.23" y="14.9"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="76.97" y="6.82"/>
 <vertex x="76.6" y="6.82"/>
 <vertex x="76.23" y="6.82"/>
@@ -8620,7 +8733,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="77" y="9.64"/>
 <vertex x="77" y="8.23"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="78.68" y="18.13"/>
 <vertex x="79.05" y="18.13"/>
 <vertex x="79.42" y="18.13"/>
@@ -8724,7 +8837,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="78.65" y="15.3"/>
 <vertex x="78.65" y="16.72"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="64.64" y="37.54"/>
 <vertex x="64.64" y="37.49"/>
 <vertex x="64.67" y="37.35"/>
@@ -8865,7 +8978,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.9">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="4.28" y="12.92"/>
 <vertex x="4.34" y="12.4"/>
 <vertex x="4.51" y="11.96"/>
@@ -8995,7 +9108,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.45" y="12.92"/>
 <vertex x="3.86" y="12.92"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="23.24" y="12.93"/>
 <vertex x="23.44" y="13.61"/>
 <vertex x="23.56" y="14.35"/>
@@ -9008,7 +9121,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="26.7" y="12.41"/>
 <vertex x="26.31" y="11.44"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="26.31" y="11.44"/>
 <vertex x="26.24" y="11.31"/>
 <vertex x="25.7" y="10.46"/>
@@ -9127,7 +9240,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="22.94" y="12.32"/>
 <vertex x="23.24" y="12.93"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="32.41" y="16.09"/>
 <vertex x="33.2" y="16.19"/>
 <vertex x="33.96" y="16.28"/>
@@ -9144,7 +9257,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="33.26" y="14.18"/>
 <vertex x="33.06" y="14.13"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="33.06" y="14.13"/>
 <vertex x="32.88" y="14.07"/>
 <vertex x="32.7" y="14"/>
@@ -9407,7 +9520,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="31.61" y="15.95"/>
 <vertex x="32.41" y="16.09"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="42.04" y="20.92"/>
 <vertex x="42.45" y="20.99"/>
 <vertex x="42.87" y="21.07"/>
@@ -9491,7 +9604,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="42.01" y="17.88"/>
 <vertex x="42.01" y="19.4"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="51.58" y="24.44"/>
 <vertex x="55.08" y="26.36"/>
 <vertex x="55.08" y="16.93"/>
@@ -9505,7 +9618,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="55.08" y="8.79"/>
 <vertex x="51.58" y="8.79"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="66.28" y="19.17"/>
 <vertex x="65.85" y="19.17"/>
 <vertex x="65.42" y="19.17"/>
@@ -9636,7 +9749,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="66.28" y="16.58"/>
 <vertex x="66.28" y="17.88"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="85.11" y="8.79"/>
 <vertex x="84.7" y="8.79"/>
 <vertex x="84.28" y="8.79"/>
@@ -9742,7 +9855,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="85.15" y="11.97"/>
 <vertex x="85.15" y="10.38"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="87.04" y="21.51"/>
 <vertex x="87.46" y="21.51"/>
 <vertex x="87.87" y="21.51"/>
@@ -9848,7 +9961,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="87" y="18.33"/>
 <vertex x="87" y="19.93"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="71.24" y="43.35"/>
 <vertex x="71.25" y="43.29"/>
 <vertex x="71.27" y="43.14"/>
@@ -9996,7 +10109,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_1">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="5.98" y="13.09"/>
 <vertex x="6.05" y="12.51"/>
 <vertex x="6.24" y="12.02"/>
@@ -10141,7 +10254,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="5.06" y="13.09"/>
 <vertex x="5.52" y="13.09"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="27.05" y="13.1"/>
 <vertex x="27.28" y="13.86"/>
 <vertex x="27.41" y="14.67"/>
@@ -10154,7 +10267,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="30.89" y="12.52"/>
 <vertex x="30.46" y="11.45"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="30.46" y="11.45"/>
 <vertex x="30.39" y="11.3"/>
 <vertex x="29.78" y="10.35"/>
@@ -10273,7 +10386,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="26.72" y="12.42"/>
 <vertex x="27.05" y="13.1"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="37.24" y="16.61"/>
 <vertex x="38.12" y="16.72"/>
 <vertex x="38.97" y="16.82"/>
@@ -10290,7 +10403,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="38.18" y="14.49"/>
 <vertex x="37.97" y="14.44"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="37.97" y="14.44"/>
 <vertex x="37.76" y="14.37"/>
 <vertex x="37.56" y="14.29"/>
@@ -10554,7 +10667,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="36.35" y="16.46"/>
 <vertex x="37.24" y="16.61"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="47.94" y="21.98"/>
 <vertex x="48.4" y="22.06"/>
 <vertex x="48.86" y="22.14"/>
@@ -10638,7 +10751,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="47.9" y="18.6"/>
 <vertex x="47.9" y="20.29"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="58.54" y="25.89"/>
 <vertex x="62.43" y="28.02"/>
 <vertex x="62.43" y="17.55"/>
@@ -10652,7 +10765,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="62.43" y="8.5"/>
 <vertex x="58.54" y="8.5"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="74.88" y="20.04"/>
 <vertex x="74.4" y="20.04"/>
 <vertex x="73.92" y="20.04"/>
@@ -10783,7 +10896,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="74.88" y="17.15"/>
 <vertex x="74.88" y="18.59"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="95.8" y="8.5"/>
 <vertex x="95.34" y="8.5"/>
 <vertex x="94.87" y="8.5"/>
@@ -10891,7 +11004,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="95.84" y="12.03"/>
 <vertex x="95.84" y="10.26"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="97.94" y="22.64"/>
 <vertex x="98.4" y="22.64"/>
 <vertex x="98.86" y="22.64"/>
@@ -11000,7 +11113,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="97.9" y="19.11"/>
 <vertex x="97.9" y="20.87"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="80.39" y="46.9"/>
 <vertex x="80.39" y="46.84"/>
 <vertex x="80.42" y="46.66"/>
@@ -15835,7 +15948,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME-LETTER" prefix="FRAME" uservalue="yes">
+<deviceset name="FRAME-LETTER" prefix="FRAME">
 <description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
 Standard 8.5x11 US Letter frame</description>
 <gates>
@@ -15845,10 +15958,7 @@ Standard 8.5x11 US Letter frame</description>
 <devices>
 <device name="" package="CREATIVE_COMMONS">
 <technologies>
-<technology name="">
-<attribute name="DESIGNER" value="NAME" constant="no"/>
-<attribute name="VERSION" value="v01" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="NO_PACKAGE" package="DUMMY">
@@ -15868,7 +15978,22 @@ Standard 8.5x11 US Letter frame</description>
 <gate name="G$1" symbol="OSHW-LOGO" x="-5.08" y="-5.08"/>
 </gates>
 <devices>
-<device name="S" package="OSHW-LOGO-S">
+<device name="S-COPPER" package="OSHW-LOGO-S_COPPER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M-COPPER" package="OSHW-LOGO-M_COPPER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-COPPER" package="OSHW-LOGO-L_COPPER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L" package="OSHW-LOGO-L">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -15878,7 +16003,7 @@ Standard 8.5x11 US Letter frame</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L" package="OSHW-LOGO-L">
+<device name="S" package="OSHW-LOGO-S">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -17262,31 +17387,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
 </package>
-<package name="SCREWTERMINAL-3.5MM-8">
-<wire x1="-2.3" y1="3.4" x2="26.76" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="26.76" y1="3.4" x2="26.76" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="26.76" y1="-2.8" x2="26.76" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="26.76" y1="-3.6" x2="-2.3" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="-3.6" x2="-2.3" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="-2.8" x2="-2.3" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="26.76" y1="-2.8" x2="-2.3" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="-1.35" x2="-2.7" y2="-1.35" width="0.2032" layer="51"/>
-<wire x1="-2.7" y1="-1.35" x2="-2.7" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="-2.7" y1="-2.35" x2="-2.3" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="26.76" y1="3.15" x2="27.16" y2="3.15" width="0.2032" layer="51"/>
-<wire x1="27.16" y1="3.15" x2="27.16" y2="2.15" width="0.2032" layer="51"/>
-<wire x1="27.16" y1="2.15" x2="26.76" y2="2.15" width="0.2032" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.2" diameter="2.032" shape="square"/>
-<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
-<pad name="3" x="7" y="0" drill="1.2" diameter="2.032"/>
-<pad name="4" x="10.5" y="0" drill="1.2" diameter="2.032"/>
-<pad name="5" x="14" y="0" drill="1.2" diameter="2.032"/>
-<pad name="6" x="17.5" y="0" drill="1.2" diameter="2.032"/>
-<pad name="7" x="21" y="0" drill="1.2" diameter="2.032"/>
-<pad name="8" x="24.5" y="0" drill="1.2" diameter="2.032"/>
-<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="1X08_SMD">
 <wire x1="1.37" y1="1.25" x2="-19.15" y2="1.25" width="0.127" layer="51"/>
 <wire x1="-19.15" y1="1.25" x2="-19.15" y2="-1.25" width="0.127" layer="51"/>
@@ -17527,6 +17627,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
+</package>
+<package name="SCREWTERMINAL-3.5MM-8">
+<wire x1="-1.75" y1="3.4" x2="26.25" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="26.25" y1="3.4" x2="26.25" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="26.25" y1="-2.8" x2="26.25" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="26.25" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-3.6" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-2.8" x2="-1.75" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="26.25" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-1.35" x2="-2.25" y2="-1.35" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="-1.35" x2="-2.25" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="-2.35" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="26.25" y1="3.15" x2="26.75" y2="3.15" width="0.2032" layer="51"/>
+<wire x1="26.75" y1="3.15" x2="26.75" y2="2.15" width="0.2032" layer="51"/>
+<wire x1="26.75" y1="2.15" x2="26.25" y2="2.15" width="0.2032" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.2" diameter="2.032" shape="square"/>
+<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
+<pad name="3" x="7" y="0" drill="1.2" diameter="2.032"/>
+<pad name="4" x="10.5" y="0" drill="1.2" diameter="2.032"/>
+<pad name="5" x="14" y="0" drill="1.2" diameter="2.032"/>
+<pad name="6" x="17.5" y="0" drill="1.2" diameter="2.032"/>
+<pad name="7" x="21" y="0" drill="1.2" diameter="2.032"/>
+<pad name="8" x="24.5" y="0" drill="1.2" diameter="2.032"/>
+<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -17976,76 +18101,75 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0.616" y="34.992" size="0.8128" layer="25" font="vector" ratio="15" rot="R270">&gt;NAME</text>
 <hole x="23.53" y="30.67" drill="2"/>
 <hole x="2.93" y="1.98" drill="2"/>
-<wire x1="1.47" y1="18.97" x2="2.49" y2="18.97" width="0.127" layer="41"/>
-<wire x1="4.115" y1="18.97" x2="5.135" y2="18.97" width="0.127" layer="41"/>
-<wire x1="1.47" y1="18.57" x2="2.49" y2="18.57" width="0.127" layer="41"/>
-<wire x1="4.115" y1="18.57" x2="5.135" y2="18.57" width="0.127" layer="41"/>
-<wire x1="1.47" y1="18.17" x2="2.49" y2="18.17" width="0.127" layer="41"/>
-<wire x1="4.115" y1="18.17" x2="5.135" y2="18.17" width="0.127" layer="41"/>
-<wire x1="1.47" y1="17.77" x2="2.49" y2="17.77" width="0.127" layer="41"/>
-<wire x1="4.115" y1="17.77" x2="5.135" y2="17.77" width="0.127" layer="41"/>
-<wire x1="1.47" y1="17.37" x2="2.49" y2="17.37" width="0.127" layer="41"/>
-<wire x1="4.115" y1="17.37" x2="5.135" y2="17.37" width="0.127" layer="41"/>
-<wire x1="1.47" y1="16.97" x2="2.49" y2="16.97" width="0.127" layer="41"/>
-<wire x1="4.115" y1="16.97" x2="5.135" y2="16.97" width="0.127" layer="41"/>
-<wire x1="1.47" y1="16.57" x2="2.49" y2="16.57" width="0.127" layer="41"/>
-<wire x1="4.115" y1="16.57" x2="5.135" y2="16.57" width="0.127" layer="41"/>
-<wire x1="1.47" y1="16.17" x2="2.49" y2="16.17" width="0.127" layer="41"/>
-<wire x1="4.115" y1="16.17" x2="5.135" y2="16.17" width="0.127" layer="41"/>
-<wire x1="1.47" y1="15.77" x2="2.49" y2="15.77" width="0.127" layer="41"/>
-<wire x1="4.115" y1="15.77" x2="5.135" y2="15.77" width="0.127" layer="41"/>
-<wire x1="1.47" y1="15.37" x2="2.49" y2="15.37" width="0.127" layer="41"/>
-<wire x1="4.115" y1="15.37" x2="5.135" y2="15.37" width="0.127" layer="41"/>
-<wire x1="1.47" y1="14.97" x2="2.49" y2="14.97" width="0.127" layer="41"/>
-<wire x1="4.115" y1="14.97" x2="5.135" y2="14.97" width="0.127" layer="41"/>
-<wire x1="1.47" y1="14.57" x2="2.49" y2="14.57" width="0.127" layer="41"/>
-<wire x1="4.115" y1="14.57" x2="5.135" y2="14.57" width="0.127" layer="41"/>
-<wire x1="1.47" y1="14.17" x2="2.49" y2="14.17" width="0.127" layer="41"/>
-<wire x1="4.115" y1="14.17" x2="5.135" y2="14.17" width="0.127" layer="41"/>
-<wire x1="1.47" y1="13.77" x2="2.49" y2="13.77" width="0.127" layer="41"/>
-<wire x1="4.115" y1="13.77" x2="5.135" y2="13.77" width="0.127" layer="41"/>
-<wire x1="1.47" y1="13.37" x2="2.49" y2="13.37" width="0.127" layer="41"/>
-<wire x1="4.115" y1="13.37" x2="5.135" y2="13.37" width="0.127" layer="41"/>
-<wire x1="1.47" y1="12.97" x2="2.49" y2="12.97" width="0.127" layer="41"/>
-<wire x1="4.115" y1="12.97" x2="5.135" y2="12.97" width="0.127" layer="41"/>
-<wire x1="1.47" y1="12.57" x2="2.49" y2="12.57" width="0.127" layer="41"/>
-<wire x1="4.115" y1="12.57" x2="5.135" y2="12.57" width="0.127" layer="41"/>
-<wire x1="1.47" y1="12.17" x2="2.49" y2="12.17" width="0.127" layer="41"/>
-<wire x1="4.115" y1="12.17" x2="5.135" y2="12.17" width="0.127" layer="41"/>
-<wire x1="1.47" y1="11.77" x2="2.49" y2="11.77" width="0.127" layer="41"/>
-<wire x1="4.115" y1="11.77" x2="5.135" y2="11.77" width="0.127" layer="41"/>
-<wire x1="1.47" y1="11.37" x2="2.49" y2="11.37" width="0.127" layer="41"/>
-<wire x1="4.115" y1="11.37" x2="5.135" y2="11.37" width="0.127" layer="41"/>
-<wire x1="1.47" y1="10.97" x2="2.49" y2="10.97" width="0.127" layer="41"/>
-<wire x1="4.115" y1="10.97" x2="5.135" y2="10.97" width="0.127" layer="41"/>
-<wire x1="1.47" y1="10.57" x2="2.49" y2="10.57" width="0.127" layer="41"/>
-<wire x1="4.115" y1="10.57" x2="5.135" y2="10.57" width="0.127" layer="41"/>
-<wire x1="1.47" y1="10.17" x2="2.49" y2="10.17" width="0.127" layer="41"/>
-<wire x1="4.115" y1="10.17" x2="5.135" y2="10.17" width="0.127" layer="41"/>
-<wire x1="1.47" y1="9.77" x2="2.49" y2="9.77" width="0.127" layer="41"/>
-<wire x1="4.115" y1="9.77" x2="5.135" y2="9.77" width="0.127" layer="41"/>
-<wire x1="1.47" y1="9.37" x2="2.49" y2="9.37" width="0.127" layer="41"/>
-<wire x1="4.115" y1="9.37" x2="5.135" y2="9.37" width="0.127" layer="41"/>
-<wire x1="1.47" y1="8.97" x2="2.49" y2="8.97" width="0.127" layer="41"/>
-<wire x1="4.115" y1="8.97" x2="5.135" y2="8.97" width="0.127" layer="41"/>
-<wire x1="1.47" y1="8.57" x2="2.49" y2="8.57" width="0.127" layer="41"/>
-<wire x1="4.115" y1="8.57" x2="5.135" y2="8.57" width="0.127" layer="41"/>
-<wire x1="1.47" y1="8.17" x2="2.49" y2="8.17" width="0.127" layer="41"/>
-<wire x1="4.115" y1="8.17" x2="5.135" y2="8.17" width="0.127" layer="41"/>
-<wire x1="1.47" y1="7.77" x2="2.49" y2="7.77" width="0.127" layer="41"/>
-<wire x1="4.115" y1="7.77" x2="5.135" y2="7.77" width="0.127" layer="41"/>
-<wire x1="1.47" y1="7.37" x2="2.49" y2="7.37" width="0.127" layer="41"/>
-<wire x1="4.115" y1="7.37" x2="5.135" y2="7.37" width="0.127" layer="41"/>
-<wire x1="1.47" y1="6.97" x2="2.49" y2="6.97" width="0.127" layer="41"/>
-<wire x1="4.115" y1="6.97" x2="5.135" y2="6.97" width="0.127" layer="41"/>
-<wire x1="1.47" y1="6.57" x2="2.49" y2="6.57" width="0.127" layer="41"/>
-<wire x1="4.115" y1="6.57" x2="5.135" y2="6.57" width="0.127" layer="41"/>
-<wire x1="1.47" y1="6.17" x2="2.49" y2="6.17" width="0.127" layer="41"/>
-<wire x1="4.115" y1="6.17" x2="5.135" y2="6.17" width="0.127" layer="41"/>
-<wire x1="1.47" y1="5.77" x2="2.49" y2="5.77" width="0.127" layer="41"/>
-<wire x1="4.115" y1="5.77" x2="5.135" y2="5.77" width="0.127" layer="41"/>
-<wire x1="1.408559375" y1="19.31864375" x2="2.55154375" y2="19.31864375" width="0.0254" layer="41"/>
-<text x="1.27" y="5.08" size="0.8128" layer="27" font="vector" ratio="15" rot="R90">&gt;VALUE</text>
+<wire x1="1.724" y1="18.97" x2="2.236" y2="18.97" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="18.97" x2="4.881" y2="18.97" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="18.57" x2="2.236" y2="18.57" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="18.57" x2="4.881" y2="18.57" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="18.17" x2="2.236" y2="18.17" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="18.17" x2="4.881" y2="18.17" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="17.77" x2="2.236" y2="17.77" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="17.77" x2="4.881" y2="17.77" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="17.37" x2="2.236" y2="17.37" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="17.37" x2="4.881" y2="17.37" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="16.97" x2="2.236" y2="16.97" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="16.97" x2="4.881" y2="16.97" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="16.57" x2="2.236" y2="16.57" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="16.57" x2="4.881" y2="16.57" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="16.17" x2="2.236" y2="16.17" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="16.17" x2="4.881" y2="16.17" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="15.77" x2="2.236" y2="15.77" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="15.77" x2="4.881" y2="15.77" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="15.37" x2="2.236" y2="15.37" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="15.37" x2="4.881" y2="15.37" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="14.97" x2="2.236" y2="14.97" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="14.97" x2="4.881" y2="14.97" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="14.57" x2="2.236" y2="14.57" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="14.57" x2="4.881" y2="14.57" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="14.17" x2="2.236" y2="14.17" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="14.17" x2="4.881" y2="14.17" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="13.77" x2="2.236" y2="13.77" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="13.77" x2="4.881" y2="13.77" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="13.37" x2="2.236" y2="13.37" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="13.37" x2="4.881" y2="13.37" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="12.97" x2="2.236" y2="12.97" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="12.97" x2="4.881" y2="12.97" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="12.57" x2="2.236" y2="12.57" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="12.57" x2="4.881" y2="12.57" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="12.17" x2="2.236" y2="12.17" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="12.17" x2="4.881" y2="12.17" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="11.77" x2="2.236" y2="11.77" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="11.77" x2="4.881" y2="11.77" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="11.37" x2="2.236" y2="11.37" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="11.37" x2="4.881" y2="11.37" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="10.97" x2="2.236" y2="10.97" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="10.97" x2="4.881" y2="10.97" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="10.57" x2="2.236" y2="10.57" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="10.57" x2="4.881" y2="10.57" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="10.17" x2="2.236" y2="10.17" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="10.17" x2="4.881" y2="10.17" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="9.77" x2="2.236" y2="9.77" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="9.77" x2="4.881" y2="9.77" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="9.37" x2="2.236" y2="9.37" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="9.37" x2="4.881" y2="9.37" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="8.97" x2="2.236" y2="8.97" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="8.97" x2="4.881" y2="8.97" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="8.57" x2="2.236" y2="8.57" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="8.57" x2="4.881" y2="8.57" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="8.17" x2="2.236" y2="8.17" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="8.17" x2="4.881" y2="8.17" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="7.77" x2="2.236" y2="7.77" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="7.77" x2="4.881" y2="7.77" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="7.37" x2="2.236" y2="7.37" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="7.37" x2="4.881" y2="7.37" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="6.97" x2="2.236" y2="6.97" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="6.97" x2="4.881" y2="6.97" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="6.57" x2="2.236" y2="6.57" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="6.57" x2="4.881" y2="6.57" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="6.17" x2="2.236" y2="6.17" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="6.17" x2="4.881" y2="6.17" width="0.0508" layer="41"/>
+<wire x1="1.724" y1="5.77" x2="2.236" y2="5.77" width="0.0508" layer="41"/>
+<wire x1="4.369" y1="5.77" x2="4.881" y2="5.77" width="0.0508" layer="41"/>
+<wire x1="1.662559375" y1="19.31864375" x2="2.29754375" y2="19.31864375" width="0.0254" layer="41"/>
 </package>
 <package name="DF40C-70DP-0.4(51)">
 <circle x="7.7" y="1" radius="0.1" width="0.3048" layer="22"/>
@@ -18127,78 +18251,78 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="NC3" x="-7.2" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
 <smd name="NC1" x="7.2" y="1.32" dx="0.2" dy="1.14" layer="16"/>
 <smd name="NC2" x="7.2" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
-<wire x1="6.6" y1="-1.835" x2="6.6" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="6.6" y1="0.81" x2="6.6" y2="1.83" width="0.127" layer="42"/>
-<wire x1="6.2" y1="-1.835" x2="6.2" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="6.2" y1="0.81" x2="6.2" y2="1.83" width="0.127" layer="42"/>
-<wire x1="5.8" y1="-1.835" x2="5.8" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="5.8" y1="0.81" x2="5.8" y2="1.83" width="0.127" layer="42"/>
-<wire x1="5.4" y1="-1.835" x2="5.4" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="5.4" y1="0.81" x2="5.4" y2="1.83" width="0.127" layer="42"/>
-<wire x1="5" y1="-1.835" x2="5" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="5" y1="0.81" x2="5" y2="1.83" width="0.127" layer="42"/>
-<wire x1="4.6" y1="-1.835" x2="4.6" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="4.6" y1="0.81" x2="4.6" y2="1.83" width="0.127" layer="42"/>
-<wire x1="4.2" y1="-1.835" x2="4.2" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="4.2" y1="0.81" x2="4.2" y2="1.83" width="0.127" layer="42"/>
-<wire x1="3.8" y1="-1.835" x2="3.8" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="3.8" y1="0.81" x2="3.8" y2="1.83" width="0.127" layer="42"/>
-<wire x1="3.4" y1="-1.835" x2="3.4" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="3.4" y1="0.81" x2="3.4" y2="1.83" width="0.127" layer="42"/>
-<wire x1="3" y1="-1.835" x2="3" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="3" y1="0.81" x2="3" y2="1.83" width="0.127" layer="42"/>
-<wire x1="2.6" y1="-1.835" x2="2.6" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="2.6" y1="0.81" x2="2.6" y2="1.83" width="0.127" layer="42"/>
-<wire x1="2.2" y1="-1.835" x2="2.2" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="2.2" y1="0.81" x2="2.2" y2="1.83" width="0.127" layer="42"/>
-<wire x1="1.8" y1="-1.835" x2="1.8" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="1.8" y1="0.81" x2="1.8" y2="1.83" width="0.127" layer="42"/>
-<wire x1="1.4" y1="-1.835" x2="1.4" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="1.4" y1="0.81" x2="1.4" y2="1.83" width="0.127" layer="42"/>
-<wire x1="1" y1="-1.835" x2="1" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="1" y1="0.81" x2="1" y2="1.83" width="0.127" layer="42"/>
-<wire x1="0.6" y1="-1.835" x2="0.6" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="0.6" y1="0.81" x2="0.6" y2="1.83" width="0.127" layer="42"/>
-<wire x1="0.2" y1="-1.835" x2="0.2" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="0.2" y1="0.81" x2="0.2" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-0.2" y1="-1.835" x2="-0.2" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-0.2" y1="0.81" x2="-0.2" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-0.6" y1="-1.835" x2="-0.6" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-0.6" y1="0.81" x2="-0.6" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-1" y1="-1.835" x2="-1" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-1" y1="0.81" x2="-1" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-1.4" y1="-1.835" x2="-1.4" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-1.4" y1="0.81" x2="-1.4" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-1.8" y1="-1.835" x2="-1.8" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-1.8" y1="0.81" x2="-1.8" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-2.2" y1="-1.835" x2="-2.2" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-2.2" y1="0.81" x2="-2.2" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-2.6" y1="-1.835" x2="-2.6" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-2.6" y1="0.81" x2="-2.6" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-3" y1="-1.835" x2="-3" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-3" y1="0.81" x2="-3" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-3.4" y1="-1.835" x2="-3.4" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-3.4" y1="0.81" x2="-3.4" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-3.8" y1="-1.835" x2="-3.8" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-3.8" y1="0.81" x2="-3.8" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-4.2" y1="-1.835" x2="-4.2" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-4.2" y1="0.81" x2="-4.2" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-4.6" y1="-1.835" x2="-4.6" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-4.6" y1="0.81" x2="-4.6" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-5" y1="-1.835" x2="-5" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-5" y1="0.81" x2="-5" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-5.4" y1="-1.835" x2="-5.4" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-5.4" y1="0.81" x2="-5.4" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-5.8" y1="-1.835" x2="-5.8" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-5.8" y1="0.81" x2="-5.8" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-6.2" y1="-1.835" x2="-6.2" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-6.2" y1="0.81" x2="-6.2" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-6.6" y1="-1.835" x2="-6.6" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-6.6" y1="0.81" x2="-6.6" y2="1.83" width="0.127" layer="42"/>
-<wire x1="-7" y1="-1.835" x2="-7" y2="-0.815" width="0.127" layer="42"/>
-<wire x1="-7" y1="0.81" x2="-7" y2="1.83" width="0.127" layer="42"/>
-<wire x1="7" y1="0.81" x2="7" y2="1.83" width="0.127" layer="42"/>
-<wire x1="7" y1="-1.835" x2="7" y2="-0.815" width="0.127" layer="42"/>
+<wire x1="6.6" y1="-1.581" x2="6.6" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="6.6" y1="1.064" x2="6.6" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="6.2" y1="-1.581" x2="6.2" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="6.2" y1="1.064" x2="6.2" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="5.8" y1="-1.581" x2="5.8" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="5.8" y1="1.064" x2="5.8" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="5.4" y1="-1.581" x2="5.4" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="5.4" y1="1.064" x2="5.4" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="5" y1="-1.581" x2="5" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="5" y1="1.064" x2="5" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="4.6" y1="-1.581" x2="4.6" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="4.6" y1="1.064" x2="4.6" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="4.2" y1="-1.581" x2="4.2" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="4.2" y1="1.064" x2="4.2" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="3.8" y1="-1.581" x2="3.8" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="3.8" y1="1.064" x2="3.8" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="3.4" y1="-1.581" x2="3.4" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="3.4" y1="1.064" x2="3.4" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="3" y1="-1.581" x2="3" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="3" y1="1.064" x2="3" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="2.6" y1="-1.581" x2="2.6" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="2.6" y1="1.064" x2="2.6" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="2.2" y1="-1.581" x2="2.2" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="2.2" y1="1.064" x2="2.2" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="1.8" y1="-1.581" x2="1.8" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="1.8" y1="1.064" x2="1.8" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="1.4" y1="-1.581" x2="1.4" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="1.4" y1="1.064" x2="1.4" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="1" y1="-1.581" x2="1" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="1" y1="1.064" x2="1" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="0.6" y1="-1.581" x2="0.6" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="0.6" y1="1.064" x2="0.6" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="0.2" y1="-1.581" x2="0.2" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="0.2" y1="1.064" x2="0.2" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-0.2" y1="-1.581" x2="-0.2" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-0.2" y1="1.064" x2="-0.2" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-0.6" y1="-1.581" x2="-0.6" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-0.6" y1="1.064" x2="-0.6" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-1" y1="-1.581" x2="-1" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-1" y1="1.064" x2="-1" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-1.4" y1="-1.581" x2="-1.4" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-1.4" y1="1.064" x2="-1.4" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-1.8" y1="-1.581" x2="-1.8" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-1.8" y1="1.064" x2="-1.8" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-2.2" y1="-1.581" x2="-2.2" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-2.2" y1="1.064" x2="-2.2" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-2.6" y1="-1.581" x2="-2.6" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-2.6" y1="1.064" x2="-2.6" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-3" y1="-1.581" x2="-3" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-3" y1="1.064" x2="-3" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-3.4" y1="-1.581" x2="-3.4" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-3.4" y1="1.064" x2="-3.4" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-3.8" y1="-1.581" x2="-3.8" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-3.8" y1="1.064" x2="-3.8" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-4.2" y1="-1.581" x2="-4.2" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-4.2" y1="1.064" x2="-4.2" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-4.6" y1="-1.581" x2="-4.6" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-4.6" y1="1.064" x2="-4.6" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-5" y1="-1.581" x2="-5" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-5" y1="1.064" x2="-5" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-5.4" y1="-1.581" x2="-5.4" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-5.4" y1="1.064" x2="-5.4" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-5.8" y1="-1.581" x2="-5.8" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-5.8" y1="1.064" x2="-5.8" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-6.2" y1="-1.581" x2="-6.2" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-6.2" y1="1.064" x2="-6.2" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-6.6" y1="-1.581" x2="-6.6" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-6.6" y1="1.064" x2="-6.6" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="-7" y1="-1.581" x2="-7" y2="-1.069" width="0.0508" layer="42"/>
+<wire x1="-7" y1="1.064" x2="-7" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="7" y1="1.064" x2="7" y2="1.576" width="0.0508" layer="42"/>
+<wire x1="7" y1="-1.581" x2="7" y2="-1.069" width="0.0508" layer="42"/>
 </package>
 <package name="DF40-XC-(X.X)-70DS-0.4V(51)">
 <smd name="69" x="-6.8" y="1.32" dx="0.2" dy="1.14" layer="1"/>
@@ -18276,74 +18400,74 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="8.4" y1="1.44" x2="8.4" y2="-1.44" width="0.2032" layer="21"/>
 <wire x1="8.4" y1="-1.44" x2="-8.4" y2="-1.44" width="0.2032" layer="21"/>
 <wire x1="-8.4" y1="-1.44" x2="-8.4" y2="1.44" width="0.2032" layer="21"/>
-<wire x1="-6.6" y1="-1.835" x2="-6.6" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-6.6" y1="0.81" x2="-6.6" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-6.2" y1="-1.835" x2="-6.2" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-6.2" y1="0.81" x2="-6.2" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-5.8" y1="-1.835" x2="-5.8" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-5.8" y1="0.81" x2="-5.8" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-5.4" y1="-1.835" x2="-5.4" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-5.4" y1="0.81" x2="-5.4" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-5" y1="-1.835" x2="-5" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-5" y1="0.81" x2="-5" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-4.6" y1="-1.835" x2="-4.6" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-4.6" y1="0.81" x2="-4.6" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-4.2" y1="-1.835" x2="-4.2" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-4.2" y1="0.81" x2="-4.2" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-3.8" y1="-1.835" x2="-3.8" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-3.8" y1="0.81" x2="-3.8" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-3.4" y1="-1.835" x2="-3.4" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-3.4" y1="0.81" x2="-3.4" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-3" y1="-1.835" x2="-3" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-3" y1="0.81" x2="-3" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-2.6" y1="-1.835" x2="-2.6" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-2.6" y1="0.81" x2="-2.6" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-2.2" y1="-1.835" x2="-2.2" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-2.2" y1="0.81" x2="-2.2" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-1.8" y1="-1.835" x2="-1.8" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-1.8" y1="0.81" x2="-1.8" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-1.4" y1="-1.835" x2="-1.4" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-1.4" y1="0.81" x2="-1.4" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-1" y1="-1.835" x2="-1" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-1" y1="0.81" x2="-1" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-0.6" y1="-1.835" x2="-0.6" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-0.6" y1="0.81" x2="-0.6" y2="1.83" width="0.127" layer="41"/>
-<wire x1="-0.2" y1="-1.835" x2="-0.2" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="-0.2" y1="0.81" x2="-0.2" y2="1.83" width="0.127" layer="41"/>
-<wire x1="0.2" y1="-1.835" x2="0.2" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="0.2" y1="0.81" x2="0.2" y2="1.83" width="0.127" layer="41"/>
-<wire x1="0.6" y1="-1.835" x2="0.6" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="0.6" y1="0.81" x2="0.6" y2="1.83" width="0.127" layer="41"/>
-<wire x1="1" y1="-1.835" x2="1" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="1" y1="0.81" x2="1" y2="1.83" width="0.127" layer="41"/>
-<wire x1="1.4" y1="-1.835" x2="1.4" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="1.4" y1="0.81" x2="1.4" y2="1.83" width="0.127" layer="41"/>
-<wire x1="1.8" y1="-1.835" x2="1.8" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="1.8" y1="0.81" x2="1.8" y2="1.83" width="0.127" layer="41"/>
-<wire x1="2.2" y1="-1.835" x2="2.2" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="2.2" y1="0.81" x2="2.2" y2="1.83" width="0.127" layer="41"/>
-<wire x1="2.6" y1="-1.835" x2="2.6" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="2.6" y1="0.81" x2="2.6" y2="1.83" width="0.127" layer="41"/>
-<wire x1="3" y1="-1.835" x2="3" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="3" y1="0.81" x2="3" y2="1.83" width="0.127" layer="41"/>
-<wire x1="3.4" y1="-1.835" x2="3.4" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="3.4" y1="0.81" x2="3.4" y2="1.83" width="0.127" layer="41"/>
-<wire x1="3.8" y1="-1.835" x2="3.8" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="3.8" y1="0.81" x2="3.8" y2="1.83" width="0.127" layer="41"/>
-<wire x1="4.2" y1="-1.835" x2="4.2" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="4.2" y1="0.81" x2="4.2" y2="1.83" width="0.127" layer="41"/>
-<wire x1="4.6" y1="-1.835" x2="4.6" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="4.6" y1="0.81" x2="4.6" y2="1.83" width="0.127" layer="41"/>
-<wire x1="5" y1="-1.835" x2="5" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="5" y1="0.81" x2="5" y2="1.83" width="0.127" layer="41"/>
-<wire x1="5.4" y1="-1.835" x2="5.4" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="5.4" y1="0.81" x2="5.4" y2="1.83" width="0.127" layer="41"/>
-<wire x1="5.8" y1="-1.835" x2="5.8" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="5.8" y1="0.81" x2="5.8" y2="1.83" width="0.127" layer="41"/>
-<wire x1="6.2" y1="-1.835" x2="6.2" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="6.2" y1="0.81" x2="6.2" y2="1.83" width="0.127" layer="41"/>
-<wire x1="6.6" y1="-1.835" x2="6.6" y2="-0.815" width="0.127" layer="41"/>
-<wire x1="6.6" y1="0.81" x2="6.6" y2="1.83" width="0.127" layer="41"/>
+<wire x1="-6.6" y1="-1.581" x2="-6.6" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-6.6" y1="1.064" x2="-6.6" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-6.2" y1="-1.581" x2="-6.2" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-6.2" y1="1.064" x2="-6.2" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-5.8" y1="-1.581" x2="-5.8" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-5.8" y1="1.064" x2="-5.8" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-5.4" y1="-1.581" x2="-5.4" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-5.4" y1="1.064" x2="-5.4" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-5" y1="-1.581" x2="-5" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-5" y1="1.064" x2="-5" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-4.6" y1="-1.581" x2="-4.6" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-4.6" y1="1.064" x2="-4.6" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-4.2" y1="-1.581" x2="-4.2" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-4.2" y1="1.064" x2="-4.2" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-3.8" y1="-1.581" x2="-3.8" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-3.8" y1="1.064" x2="-3.8" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-3.4" y1="-1.581" x2="-3.4" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-3.4" y1="1.064" x2="-3.4" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-3" y1="-1.581" x2="-3" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-3" y1="1.064" x2="-3" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-2.6" y1="-1.581" x2="-2.6" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-2.6" y1="1.064" x2="-2.6" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-2.2" y1="-1.581" x2="-2.2" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-2.2" y1="1.064" x2="-2.2" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-1.8" y1="-1.581" x2="-1.8" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-1.8" y1="1.064" x2="-1.8" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-1.4" y1="-1.581" x2="-1.4" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-1.4" y1="1.064" x2="-1.4" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-1" y1="-1.581" x2="-1" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-1" y1="1.064" x2="-1" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-0.6" y1="-1.581" x2="-0.6" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-0.6" y1="1.064" x2="-0.6" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="-0.2" y1="-1.581" x2="-0.2" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="-0.2" y1="1.064" x2="-0.2" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="0.2" y1="-1.581" x2="0.2" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="0.2" y1="1.064" x2="0.2" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="0.6" y1="-1.581" x2="0.6" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="0.6" y1="1.064" x2="0.6" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="1" y1="-1.581" x2="1" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="1" y1="1.064" x2="1" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="1.4" y1="-1.581" x2="1.4" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="1.4" y1="1.064" x2="1.4" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="1.8" y1="-1.581" x2="1.8" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="1.8" y1="1.064" x2="1.8" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="2.2" y1="-1.581" x2="2.2" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="2.2" y1="1.064" x2="2.2" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="2.6" y1="-1.581" x2="2.6" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="2.6" y1="1.064" x2="2.6" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="3" y1="-1.581" x2="3" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="3" y1="1.064" x2="3" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="3.4" y1="-1.581" x2="3.4" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="3.4" y1="1.064" x2="3.4" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="3.8" y1="-1.581" x2="3.8" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="3.8" y1="1.064" x2="3.8" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="4.2" y1="-1.581" x2="4.2" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="4.2" y1="1.064" x2="4.2" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="4.6" y1="-1.581" x2="4.6" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="4.6" y1="1.064" x2="4.6" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="5" y1="-1.581" x2="5" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="5" y1="1.064" x2="5" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="5.4" y1="-1.581" x2="5.4" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="5.4" y1="1.064" x2="5.4" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="5.8" y1="-1.581" x2="5.8" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="5.8" y1="1.064" x2="5.8" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="6.2" y1="-1.581" x2="6.2" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="6.2" y1="1.064" x2="6.2" y2="1.576" width="0.0508" layer="41"/>
+<wire x1="6.6" y1="-1.581" x2="6.6" y2="-1.069" width="0.0508" layer="41"/>
+<wire x1="6.6" y1="1.064" x2="6.6" y2="1.576" width="0.0508" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -18423,79 +18547,79 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="EDISON_CONNECTOR_FULL" prefix="J">
+<deviceset name="EDISON_CONNECTOR_FULL" prefix="U">
 <gates>
-<gate name="J" symbol="EDISON_CONNECTOR" x="-20.32" y="17.78"/>
+<gate name="G$1" symbol="EDISON_CONNECTOR" x="-20.32" y="17.78"/>
 </gates>
 <devices>
 <device name="MOUNTING_HOLES" package="EDISON_DAUGHTER">
 <connects>
-<connect gate="J" pin="1.8V" pad="12"/>
-<connect gate="J" pin="3.3V@1" pad="8"/>
-<connect gate="J" pin="3.3V@2" pad="10"/>
-<connect gate="J" pin="DCIN" pad="14"/>
-<connect gate="J" pin="FAULT" pad="19"/>
-<connect gate="J" pin="FW_RCVR" pad="69"/>
-<connect gate="J" pin="GND@1" pad="1"/>
-<connect gate="J" pin="GND@2" pad="5"/>
-<connect gate="J" pin="GND@3" pad="9"/>
-<connect gate="J" pin="GND@4" pad="11"/>
-<connect gate="J" pin="GND@5" pad="13"/>
-<connect gate="J" pin="GND@6" pad="15"/>
-<connect gate="J" pin="GP109_SPI_2_CLK" pad="55"/>
-<connect gate="J" pin="GP110_SPI_2_FS0" pad="53"/>
-<connect gate="J" pin="GP111_SPI_2_FS1" pad="51"/>
-<connect gate="J" pin="GP114_SPI_2_RXD" pad="59"/>
-<connect gate="J" pin="GP115_SPI_2_TXD" pad="57"/>
-<connect gate="J" pin="GP128_UART_1_CTS" pad="65"/>
-<connect gate="J" pin="GP129_UART_1_RTS" pad="63"/>
-<connect gate="J" pin="GP12_PWM0" pad="35"/>
-<connect gate="J" pin="GP130_UART_1_RX" pad="61"/>
-<connect gate="J" pin="GP131_UART_1_TX" pad="46"/>
-<connect gate="J" pin="GP134_UART_2_RX" pad="22"/>
-<connect gate="J" pin="GP135_UART_2_TX" pad="27"/>
-<connect gate="J" pin="GP13_PWM1" pad="33"/>
-<connect gate="J" pin="GP14" pad="48"/>
-<connect gate="J" pin="GP15" pad="42"/>
-<connect gate="J" pin="GP165" pad="25"/>
-<connect gate="J" pin="GP182_PWM2" pad="37"/>
-<connect gate="J" pin="GP183_PWM3" pad="39"/>
-<connect gate="J" pin="GP19_I2C_1_SCL" pad="41"/>
-<connect gate="J" pin="GP20_I2C_1_SDA" pad="43"/>
-<connect gate="J" pin="GP27_I2C_6_SCL" pad="45"/>
-<connect gate="J" pin="GP28_I2C_6_SDA" pad="47"/>
-<connect gate="J" pin="GP40_I2S_2_CLK" pad="52"/>
-<connect gate="J" pin="GP41_I2S_2_FS" pad="54"/>
-<connect gate="J" pin="GP42_I2S_2_RXD" pad="50"/>
-<connect gate="J" pin="GP43_I2S_2_TXD" pad="56"/>
-<connect gate="J" pin="GP44" pad="24"/>
-<connect gate="J" pin="GP45" pad="26"/>
-<connect gate="J" pin="GP46" pad="28"/>
-<connect gate="J" pin="GP47" pad="30"/>
-<connect gate="J" pin="GP48" pad="32"/>
-<connect gate="J" pin="GP49" pad="34"/>
-<connect gate="J" pin="GP77_SD_0_CD#" pad="60"/>
-<connect gate="J" pin="GP78_SD_0_CLK" pad="58"/>
-<connect gate="J" pin="GP79_SD_0_CMD" pad="62"/>
-<connect gate="J" pin="GP80_SD_0_DAT0" pad="66"/>
-<connect gate="J" pin="GP81_SD_0_DAT1" pad="70"/>
-<connect gate="J" pin="GP82_SD_0_DAT2" pad="64"/>
-<connect gate="J" pin="GP83_SD_0_DAT3" pad="68"/>
-<connect gate="J" pin="GP84_SD_CLK_FB" pad="44"/>
-<connect gate="J" pin="MSIC_SLP_CLK" pad="7"/>
-<connect gate="J" pin="OSC_CLK_OUT_0" pad="67"/>
-<connect gate="J" pin="PSW" pad="21"/>
-<connect gate="J" pin="PWRBTN#" pad="17"/>
-<connect gate="J" pin="RCVR_MODE" pad="31"/>
-<connect gate="J" pin="RESET_OUT#" pad="36"/>
-<connect gate="J" pin="USB_DN" pad="18"/>
-<connect gate="J" pin="USB_DP" pad="16"/>
-<connect gate="J" pin="USB_ID" pad="3"/>
-<connect gate="J" pin="USB_VBUS" pad="20"/>
-<connect gate="J" pin="VSYS@1" pad="2"/>
-<connect gate="J" pin="VSYS@2" pad="4"/>
-<connect gate="J" pin="VSYS@3" pad="6"/>
-<connect gate="J" pin="V_VAT_BKUP" pad="23"/>
+<connect gate="G$1" pin="1.8V" pad="12"/>
+<connect gate="G$1" pin="3.3V@1" pad="8"/>
+<connect gate="G$1" pin="3.3V@2" pad="10"/>
+<connect gate="G$1" pin="DCIN" pad="14"/>
+<connect gate="G$1" pin="FAULT" pad="19"/>
+<connect gate="G$1" pin="FW_RCVR" pad="69"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="GND@3" pad="9"/>
+<connect gate="G$1" pin="GND@4" pad="11"/>
+<connect gate="G$1" pin="GND@5" pad="13"/>
+<connect gate="G$1" pin="GND@6" pad="15"/>
+<connect gate="G$1" pin="GP109_SPI_2_CLK" pad="55"/>
+<connect gate="G$1" pin="GP110_SPI_2_FS0" pad="53"/>
+<connect gate="G$1" pin="GP111_SPI_2_FS1" pad="51"/>
+<connect gate="G$1" pin="GP114_SPI_2_RXD" pad="59"/>
+<connect gate="G$1" pin="GP115_SPI_2_TXD" pad="57"/>
+<connect gate="G$1" pin="GP128_UART_1_CTS" pad="65"/>
+<connect gate="G$1" pin="GP129_UART_1_RTS" pad="63"/>
+<connect gate="G$1" pin="GP12_PWM0" pad="35"/>
+<connect gate="G$1" pin="GP130_UART_1_RX" pad="61"/>
+<connect gate="G$1" pin="GP131_UART_1_TX" pad="46"/>
+<connect gate="G$1" pin="GP134_UART_2_RX" pad="22"/>
+<connect gate="G$1" pin="GP135_UART_2_TX" pad="27"/>
+<connect gate="G$1" pin="GP13_PWM1" pad="33"/>
+<connect gate="G$1" pin="GP14" pad="48"/>
+<connect gate="G$1" pin="GP15" pad="42"/>
+<connect gate="G$1" pin="GP165" pad="25"/>
+<connect gate="G$1" pin="GP182_PWM2" pad="37"/>
+<connect gate="G$1" pin="GP183_PWM3" pad="39"/>
+<connect gate="G$1" pin="GP19_I2C_1_SCL" pad="41"/>
+<connect gate="G$1" pin="GP20_I2C_1_SDA" pad="43"/>
+<connect gate="G$1" pin="GP27_I2C_6_SCL" pad="45"/>
+<connect gate="G$1" pin="GP28_I2C_6_SDA" pad="47"/>
+<connect gate="G$1" pin="GP40_I2S_2_CLK" pad="52"/>
+<connect gate="G$1" pin="GP41_I2S_2_FS" pad="54"/>
+<connect gate="G$1" pin="GP42_I2S_2_RXD" pad="50"/>
+<connect gate="G$1" pin="GP43_I2S_2_TXD" pad="56"/>
+<connect gate="G$1" pin="GP44" pad="24"/>
+<connect gate="G$1" pin="GP45" pad="26"/>
+<connect gate="G$1" pin="GP46" pad="28"/>
+<connect gate="G$1" pin="GP47" pad="30"/>
+<connect gate="G$1" pin="GP48" pad="32"/>
+<connect gate="G$1" pin="GP49" pad="34"/>
+<connect gate="G$1" pin="GP77_SD_0_CD#" pad="60"/>
+<connect gate="G$1" pin="GP78_SD_0_CLK" pad="58"/>
+<connect gate="G$1" pin="GP79_SD_0_CMD" pad="62"/>
+<connect gate="G$1" pin="GP80_SD_0_DAT0" pad="66"/>
+<connect gate="G$1" pin="GP81_SD_0_DAT1" pad="70"/>
+<connect gate="G$1" pin="GP82_SD_0_DAT2" pad="64"/>
+<connect gate="G$1" pin="GP83_SD_0_DAT3" pad="68"/>
+<connect gate="G$1" pin="GP84_SD_CLK_FB" pad="44"/>
+<connect gate="G$1" pin="MSIC_SLP_CLK" pad="7"/>
+<connect gate="G$1" pin="OSC_CLK_OUT_0" pad="67"/>
+<connect gate="G$1" pin="PSW" pad="21"/>
+<connect gate="G$1" pin="PWRBTN#" pad="17"/>
+<connect gate="G$1" pin="RCVR_MODE" pad="31"/>
+<connect gate="G$1" pin="RESET_OUT#" pad="36"/>
+<connect gate="G$1" pin="USB_DN" pad="18"/>
+<connect gate="G$1" pin="USB_DP" pad="16"/>
+<connect gate="G$1" pin="USB_ID" pad="3"/>
+<connect gate="G$1" pin="USB_VBUS" pad="20"/>
+<connect gate="G$1" pin="VSYS@1" pad="2"/>
+<connect gate="G$1" pin="VSYS@2" pad="4"/>
+<connect gate="G$1" pin="VSYS@3" pad="6"/>
+<connect gate="G$1" pin="V_VAT_BKUP" pad="23"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18503,72 +18627,72 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="HEADER" package="DF40C-70DP-0.4(51)">
 <connects>
-<connect gate="J" pin="1.8V" pad="12"/>
-<connect gate="J" pin="3.3V@1" pad="8"/>
-<connect gate="J" pin="3.3V@2" pad="10"/>
-<connect gate="J" pin="DCIN" pad="14"/>
-<connect gate="J" pin="FAULT" pad="19"/>
-<connect gate="J" pin="FW_RCVR" pad="69"/>
-<connect gate="J" pin="GND@1" pad="1"/>
-<connect gate="J" pin="GND@2" pad="5"/>
-<connect gate="J" pin="GND@3" pad="9"/>
-<connect gate="J" pin="GND@4" pad="11"/>
-<connect gate="J" pin="GND@5" pad="13"/>
-<connect gate="J" pin="GND@6" pad="15"/>
-<connect gate="J" pin="GP109_SPI_2_CLK" pad="55"/>
-<connect gate="J" pin="GP110_SPI_2_FS0" pad="53"/>
-<connect gate="J" pin="GP111_SPI_2_FS1" pad="51"/>
-<connect gate="J" pin="GP114_SPI_2_RXD" pad="59"/>
-<connect gate="J" pin="GP115_SPI_2_TXD" pad="57"/>
-<connect gate="J" pin="GP128_UART_1_CTS" pad="65"/>
-<connect gate="J" pin="GP129_UART_1_RTS" pad="63"/>
-<connect gate="J" pin="GP12_PWM0" pad="35"/>
-<connect gate="J" pin="GP130_UART_1_RX" pad="61"/>
-<connect gate="J" pin="GP131_UART_1_TX" pad="46"/>
-<connect gate="J" pin="GP134_UART_2_RX" pad="22"/>
-<connect gate="J" pin="GP135_UART_2_TX" pad="27"/>
-<connect gate="J" pin="GP13_PWM1" pad="33"/>
-<connect gate="J" pin="GP14" pad="48"/>
-<connect gate="J" pin="GP15" pad="42"/>
-<connect gate="J" pin="GP165" pad="25"/>
-<connect gate="J" pin="GP182_PWM2" pad="37"/>
-<connect gate="J" pin="GP183_PWM3" pad="39"/>
-<connect gate="J" pin="GP19_I2C_1_SCL" pad="41"/>
-<connect gate="J" pin="GP20_I2C_1_SDA" pad="43"/>
-<connect gate="J" pin="GP27_I2C_6_SCL" pad="45"/>
-<connect gate="J" pin="GP28_I2C_6_SDA" pad="47"/>
-<connect gate="J" pin="GP40_I2S_2_CLK" pad="52"/>
-<connect gate="J" pin="GP41_I2S_2_FS" pad="54"/>
-<connect gate="J" pin="GP42_I2S_2_RXD" pad="50"/>
-<connect gate="J" pin="GP43_I2S_2_TXD" pad="56"/>
-<connect gate="J" pin="GP44" pad="24"/>
-<connect gate="J" pin="GP45" pad="26"/>
-<connect gate="J" pin="GP46" pad="28"/>
-<connect gate="J" pin="GP47" pad="30"/>
-<connect gate="J" pin="GP48" pad="32"/>
-<connect gate="J" pin="GP49" pad="34"/>
-<connect gate="J" pin="GP77_SD_0_CD#" pad="60"/>
-<connect gate="J" pin="GP78_SD_0_CLK" pad="58"/>
-<connect gate="J" pin="GP79_SD_0_CMD" pad="62"/>
-<connect gate="J" pin="GP80_SD_0_DAT0" pad="66"/>
-<connect gate="J" pin="GP81_SD_0_DAT1" pad="70"/>
-<connect gate="J" pin="GP82_SD_0_DAT2" pad="64"/>
-<connect gate="J" pin="GP83_SD_0_DAT3" pad="68"/>
-<connect gate="J" pin="GP84_SD_CLK_FB" pad="44"/>
-<connect gate="J" pin="MSIC_SLP_CLK" pad="7"/>
-<connect gate="J" pin="OSC_CLK_OUT_0" pad="67"/>
-<connect gate="J" pin="PSW" pad="21"/>
-<connect gate="J" pin="PWRBTN#" pad="17"/>
-<connect gate="J" pin="RCVR_MODE" pad="31"/>
-<connect gate="J" pin="RESET_OUT#" pad="36"/>
-<connect gate="J" pin="USB_DN" pad="18"/>
-<connect gate="J" pin="USB_DP" pad="16"/>
-<connect gate="J" pin="USB_ID" pad="3"/>
-<connect gate="J" pin="USB_VBUS" pad="20"/>
-<connect gate="J" pin="VSYS@1" pad="2"/>
-<connect gate="J" pin="VSYS@2" pad="4"/>
-<connect gate="J" pin="VSYS@3" pad="6"/>
-<connect gate="J" pin="V_VAT_BKUP" pad="23"/>
+<connect gate="G$1" pin="1.8V" pad="12"/>
+<connect gate="G$1" pin="3.3V@1" pad="8"/>
+<connect gate="G$1" pin="3.3V@2" pad="10"/>
+<connect gate="G$1" pin="DCIN" pad="14"/>
+<connect gate="G$1" pin="FAULT" pad="19"/>
+<connect gate="G$1" pin="FW_RCVR" pad="69"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="GND@3" pad="9"/>
+<connect gate="G$1" pin="GND@4" pad="11"/>
+<connect gate="G$1" pin="GND@5" pad="13"/>
+<connect gate="G$1" pin="GND@6" pad="15"/>
+<connect gate="G$1" pin="GP109_SPI_2_CLK" pad="55"/>
+<connect gate="G$1" pin="GP110_SPI_2_FS0" pad="53"/>
+<connect gate="G$1" pin="GP111_SPI_2_FS1" pad="51"/>
+<connect gate="G$1" pin="GP114_SPI_2_RXD" pad="59"/>
+<connect gate="G$1" pin="GP115_SPI_2_TXD" pad="57"/>
+<connect gate="G$1" pin="GP128_UART_1_CTS" pad="65"/>
+<connect gate="G$1" pin="GP129_UART_1_RTS" pad="63"/>
+<connect gate="G$1" pin="GP12_PWM0" pad="35"/>
+<connect gate="G$1" pin="GP130_UART_1_RX" pad="61"/>
+<connect gate="G$1" pin="GP131_UART_1_TX" pad="46"/>
+<connect gate="G$1" pin="GP134_UART_2_RX" pad="22"/>
+<connect gate="G$1" pin="GP135_UART_2_TX" pad="27"/>
+<connect gate="G$1" pin="GP13_PWM1" pad="33"/>
+<connect gate="G$1" pin="GP14" pad="48"/>
+<connect gate="G$1" pin="GP15" pad="42"/>
+<connect gate="G$1" pin="GP165" pad="25"/>
+<connect gate="G$1" pin="GP182_PWM2" pad="37"/>
+<connect gate="G$1" pin="GP183_PWM3" pad="39"/>
+<connect gate="G$1" pin="GP19_I2C_1_SCL" pad="41"/>
+<connect gate="G$1" pin="GP20_I2C_1_SDA" pad="43"/>
+<connect gate="G$1" pin="GP27_I2C_6_SCL" pad="45"/>
+<connect gate="G$1" pin="GP28_I2C_6_SDA" pad="47"/>
+<connect gate="G$1" pin="GP40_I2S_2_CLK" pad="52"/>
+<connect gate="G$1" pin="GP41_I2S_2_FS" pad="54"/>
+<connect gate="G$1" pin="GP42_I2S_2_RXD" pad="50"/>
+<connect gate="G$1" pin="GP43_I2S_2_TXD" pad="56"/>
+<connect gate="G$1" pin="GP44" pad="24"/>
+<connect gate="G$1" pin="GP45" pad="26"/>
+<connect gate="G$1" pin="GP46" pad="28"/>
+<connect gate="G$1" pin="GP47" pad="30"/>
+<connect gate="G$1" pin="GP48" pad="32"/>
+<connect gate="G$1" pin="GP49" pad="34"/>
+<connect gate="G$1" pin="GP77_SD_0_CD#" pad="60"/>
+<connect gate="G$1" pin="GP78_SD_0_CLK" pad="58"/>
+<connect gate="G$1" pin="GP79_SD_0_CMD" pad="62"/>
+<connect gate="G$1" pin="GP80_SD_0_DAT0" pad="66"/>
+<connect gate="G$1" pin="GP81_SD_0_DAT1" pad="70"/>
+<connect gate="G$1" pin="GP82_SD_0_DAT2" pad="64"/>
+<connect gate="G$1" pin="GP83_SD_0_DAT3" pad="68"/>
+<connect gate="G$1" pin="GP84_SD_CLK_FB" pad="44"/>
+<connect gate="G$1" pin="MSIC_SLP_CLK" pad="7"/>
+<connect gate="G$1" pin="OSC_CLK_OUT_0" pad="67"/>
+<connect gate="G$1" pin="PSW" pad="21"/>
+<connect gate="G$1" pin="PWRBTN#" pad="17"/>
+<connect gate="G$1" pin="RCVR_MODE" pad="31"/>
+<connect gate="G$1" pin="RESET_OUT#" pad="36"/>
+<connect gate="G$1" pin="USB_DN" pad="18"/>
+<connect gate="G$1" pin="USB_DP" pad="16"/>
+<connect gate="G$1" pin="USB_ID" pad="3"/>
+<connect gate="G$1" pin="USB_VBUS" pad="20"/>
+<connect gate="G$1" pin="VSYS@1" pad="2"/>
+<connect gate="G$1" pin="VSYS@2" pad="4"/>
+<connect gate="G$1" pin="VSYS@3" pad="6"/>
+<connect gate="G$1" pin="V_VAT_BKUP" pad="23"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18576,72 +18700,72 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="SOCKET" package="DF40-XC-(X.X)-70DS-0.4V(51)">
 <connects>
-<connect gate="J" pin="1.8V" pad="12"/>
-<connect gate="J" pin="3.3V@1" pad="8"/>
-<connect gate="J" pin="3.3V@2" pad="10"/>
-<connect gate="J" pin="DCIN" pad="14"/>
-<connect gate="J" pin="FAULT" pad="19"/>
-<connect gate="J" pin="FW_RCVR" pad="69"/>
-<connect gate="J" pin="GND@1" pad="1"/>
-<connect gate="J" pin="GND@2" pad="5"/>
-<connect gate="J" pin="GND@3" pad="9"/>
-<connect gate="J" pin="GND@4" pad="11"/>
-<connect gate="J" pin="GND@5" pad="13"/>
-<connect gate="J" pin="GND@6" pad="15"/>
-<connect gate="J" pin="GP109_SPI_2_CLK" pad="55"/>
-<connect gate="J" pin="GP110_SPI_2_FS0" pad="53"/>
-<connect gate="J" pin="GP111_SPI_2_FS1" pad="51"/>
-<connect gate="J" pin="GP114_SPI_2_RXD" pad="59"/>
-<connect gate="J" pin="GP115_SPI_2_TXD" pad="57"/>
-<connect gate="J" pin="GP128_UART_1_CTS" pad="65"/>
-<connect gate="J" pin="GP129_UART_1_RTS" pad="63"/>
-<connect gate="J" pin="GP12_PWM0" pad="35"/>
-<connect gate="J" pin="GP130_UART_1_RX" pad="61"/>
-<connect gate="J" pin="GP131_UART_1_TX" pad="46"/>
-<connect gate="J" pin="GP134_UART_2_RX" pad="22"/>
-<connect gate="J" pin="GP135_UART_2_TX" pad="27"/>
-<connect gate="J" pin="GP13_PWM1" pad="33"/>
-<connect gate="J" pin="GP14" pad="48"/>
-<connect gate="J" pin="GP15" pad="42"/>
-<connect gate="J" pin="GP165" pad="25"/>
-<connect gate="J" pin="GP182_PWM2" pad="37"/>
-<connect gate="J" pin="GP183_PWM3" pad="39"/>
-<connect gate="J" pin="GP19_I2C_1_SCL" pad="41"/>
-<connect gate="J" pin="GP20_I2C_1_SDA" pad="43"/>
-<connect gate="J" pin="GP27_I2C_6_SCL" pad="45"/>
-<connect gate="J" pin="GP28_I2C_6_SDA" pad="47"/>
-<connect gate="J" pin="GP40_I2S_2_CLK" pad="52"/>
-<connect gate="J" pin="GP41_I2S_2_FS" pad="54"/>
-<connect gate="J" pin="GP42_I2S_2_RXD" pad="50"/>
-<connect gate="J" pin="GP43_I2S_2_TXD" pad="56"/>
-<connect gate="J" pin="GP44" pad="24"/>
-<connect gate="J" pin="GP45" pad="26"/>
-<connect gate="J" pin="GP46" pad="28"/>
-<connect gate="J" pin="GP47" pad="30"/>
-<connect gate="J" pin="GP48" pad="32"/>
-<connect gate="J" pin="GP49" pad="34"/>
-<connect gate="J" pin="GP77_SD_0_CD#" pad="60"/>
-<connect gate="J" pin="GP78_SD_0_CLK" pad="58"/>
-<connect gate="J" pin="GP79_SD_0_CMD" pad="62"/>
-<connect gate="J" pin="GP80_SD_0_DAT0" pad="66"/>
-<connect gate="J" pin="GP81_SD_0_DAT1" pad="70"/>
-<connect gate="J" pin="GP82_SD_0_DAT2" pad="64"/>
-<connect gate="J" pin="GP83_SD_0_DAT3" pad="68"/>
-<connect gate="J" pin="GP84_SD_CLK_FB" pad="44"/>
-<connect gate="J" pin="MSIC_SLP_CLK" pad="7"/>
-<connect gate="J" pin="OSC_CLK_OUT_0" pad="67"/>
-<connect gate="J" pin="PSW" pad="21"/>
-<connect gate="J" pin="PWRBTN#" pad="17"/>
-<connect gate="J" pin="RCVR_MODE" pad="31"/>
-<connect gate="J" pin="RESET_OUT#" pad="36"/>
-<connect gate="J" pin="USB_DN" pad="18"/>
-<connect gate="J" pin="USB_DP" pad="16"/>
-<connect gate="J" pin="USB_ID" pad="3"/>
-<connect gate="J" pin="USB_VBUS" pad="20"/>
-<connect gate="J" pin="VSYS@1" pad="2"/>
-<connect gate="J" pin="VSYS@2" pad="4"/>
-<connect gate="J" pin="VSYS@3" pad="6"/>
-<connect gate="J" pin="V_VAT_BKUP" pad="23"/>
+<connect gate="G$1" pin="1.8V" pad="12"/>
+<connect gate="G$1" pin="3.3V@1" pad="8"/>
+<connect gate="G$1" pin="3.3V@2" pad="10"/>
+<connect gate="G$1" pin="DCIN" pad="14"/>
+<connect gate="G$1" pin="FAULT" pad="19"/>
+<connect gate="G$1" pin="FW_RCVR" pad="69"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="GND@3" pad="9"/>
+<connect gate="G$1" pin="GND@4" pad="11"/>
+<connect gate="G$1" pin="GND@5" pad="13"/>
+<connect gate="G$1" pin="GND@6" pad="15"/>
+<connect gate="G$1" pin="GP109_SPI_2_CLK" pad="55"/>
+<connect gate="G$1" pin="GP110_SPI_2_FS0" pad="53"/>
+<connect gate="G$1" pin="GP111_SPI_2_FS1" pad="51"/>
+<connect gate="G$1" pin="GP114_SPI_2_RXD" pad="59"/>
+<connect gate="G$1" pin="GP115_SPI_2_TXD" pad="57"/>
+<connect gate="G$1" pin="GP128_UART_1_CTS" pad="65"/>
+<connect gate="G$1" pin="GP129_UART_1_RTS" pad="63"/>
+<connect gate="G$1" pin="GP12_PWM0" pad="35"/>
+<connect gate="G$1" pin="GP130_UART_1_RX" pad="61"/>
+<connect gate="G$1" pin="GP131_UART_1_TX" pad="46"/>
+<connect gate="G$1" pin="GP134_UART_2_RX" pad="22"/>
+<connect gate="G$1" pin="GP135_UART_2_TX" pad="27"/>
+<connect gate="G$1" pin="GP13_PWM1" pad="33"/>
+<connect gate="G$1" pin="GP14" pad="48"/>
+<connect gate="G$1" pin="GP15" pad="42"/>
+<connect gate="G$1" pin="GP165" pad="25"/>
+<connect gate="G$1" pin="GP182_PWM2" pad="37"/>
+<connect gate="G$1" pin="GP183_PWM3" pad="39"/>
+<connect gate="G$1" pin="GP19_I2C_1_SCL" pad="41"/>
+<connect gate="G$1" pin="GP20_I2C_1_SDA" pad="43"/>
+<connect gate="G$1" pin="GP27_I2C_6_SCL" pad="45"/>
+<connect gate="G$1" pin="GP28_I2C_6_SDA" pad="47"/>
+<connect gate="G$1" pin="GP40_I2S_2_CLK" pad="52"/>
+<connect gate="G$1" pin="GP41_I2S_2_FS" pad="54"/>
+<connect gate="G$1" pin="GP42_I2S_2_RXD" pad="50"/>
+<connect gate="G$1" pin="GP43_I2S_2_TXD" pad="56"/>
+<connect gate="G$1" pin="GP44" pad="24"/>
+<connect gate="G$1" pin="GP45" pad="26"/>
+<connect gate="G$1" pin="GP46" pad="28"/>
+<connect gate="G$1" pin="GP47" pad="30"/>
+<connect gate="G$1" pin="GP48" pad="32"/>
+<connect gate="G$1" pin="GP49" pad="34"/>
+<connect gate="G$1" pin="GP77_SD_0_CD#" pad="60"/>
+<connect gate="G$1" pin="GP78_SD_0_CLK" pad="58"/>
+<connect gate="G$1" pin="GP79_SD_0_CMD" pad="62"/>
+<connect gate="G$1" pin="GP80_SD_0_DAT0" pad="66"/>
+<connect gate="G$1" pin="GP81_SD_0_DAT1" pad="70"/>
+<connect gate="G$1" pin="GP82_SD_0_DAT2" pad="64"/>
+<connect gate="G$1" pin="GP83_SD_0_DAT3" pad="68"/>
+<connect gate="G$1" pin="GP84_SD_CLK_FB" pad="44"/>
+<connect gate="G$1" pin="MSIC_SLP_CLK" pad="7"/>
+<connect gate="G$1" pin="OSC_CLK_OUT_0" pad="67"/>
+<connect gate="G$1" pin="PSW" pad="21"/>
+<connect gate="G$1" pin="PWRBTN#" pad="17"/>
+<connect gate="G$1" pin="RCVR_MODE" pad="31"/>
+<connect gate="G$1" pin="RESET_OUT#" pad="36"/>
+<connect gate="G$1" pin="USB_DN" pad="18"/>
+<connect gate="G$1" pin="USB_DP" pad="16"/>
+<connect gate="G$1" pin="USB_ID" pad="3"/>
+<connect gate="G$1" pin="USB_VBUS" pad="20"/>
+<connect gate="G$1" pin="VSYS@1" pad="2"/>
+<connect gate="G$1" pin="VSYS@2" pad="4"/>
+<connect gate="G$1" pin="VSYS@3" pad="6"/>
+<connect gate="G$1" pin="V_VAT_BKUP" pad="23"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19107,9 +19231,9 @@ Default to I2C-1</text>
 <text x="195.58" y="170.18" size="5.08" layer="92" align="center">BOTTOM</text>
 </plain>
 <instances>
-<instance part="JP2" gate="J" x="30.48" y="132.08"/>
+<instance part="JP2" gate="G$1" x="30.48" y="132.08"/>
 <instance part="GND3" gate="1" x="22.86" y="48.26"/>
-<instance part="JP3" gate="J" x="177.8" y="132.08"/>
+<instance part="JP3" gate="G$1" x="177.8" y="132.08"/>
 <instance part="GND4" gate="1" x="170.18" y="48.26"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="V" x="147.32" y="0"/>
@@ -19126,22 +19250,22 @@ Default to I2C-1</text>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GND@6"/>
+<pinref part="JP2" gate="G$1" pin="GND@6"/>
 <wire x1="25.4" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="50.8" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="J" pin="GND@1"/>
+<pinref part="JP2" gate="G$1" pin="GND@1"/>
 <wire x1="22.86" y1="53.34" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="55.88" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="58.42" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="60.96" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="J" pin="GND@2"/>
+<pinref part="JP2" gate="G$1" pin="GND@2"/>
 <wire x1="25.4" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="J" pin="GND@3"/>
+<pinref part="JP2" gate="G$1" pin="GND@3"/>
 <wire x1="25.4" y1="58.42" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="J" pin="GND@4"/>
+<pinref part="JP2" gate="G$1" pin="GND@4"/>
 <wire x1="25.4" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="J" pin="GND@5"/>
+<pinref part="JP2" gate="G$1" pin="GND@5"/>
 <wire x1="25.4" y1="53.34" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
 <junction x="22.86" y="53.34"/>
 <junction x="22.86" y="55.88"/>
@@ -19151,22 +19275,22 @@ Default to I2C-1</text>
 <junction x="22.86" y="50.8"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GND@6"/>
+<pinref part="JP3" gate="G$1" pin="GND@6"/>
 <wire x1="172.72" y1="50.8" x2="170.18" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="50.8" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="J" pin="GND@1"/>
+<pinref part="JP3" gate="G$1" pin="GND@1"/>
 <wire x1="170.18" y1="53.34" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="55.88" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="58.42" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="60.96" x2="170.18" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="63.5" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="J" pin="GND@2"/>
+<pinref part="JP3" gate="G$1" pin="GND@2"/>
 <wire x1="172.72" y1="60.96" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="J" pin="GND@3"/>
+<pinref part="JP3" gate="G$1" pin="GND@3"/>
 <wire x1="172.72" y1="58.42" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="J" pin="GND@4"/>
+<pinref part="JP3" gate="G$1" pin="GND@4"/>
 <wire x1="172.72" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="J" pin="GND@5"/>
+<pinref part="JP3" gate="G$1" pin="GND@5"/>
 <wire x1="172.72" y1="53.34" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
 <junction x="170.18" y="53.34"/>
 <junction x="170.18" y="55.88"/>
@@ -19178,26 +19302,26 @@ Default to I2C-1</text>
 </net>
 <net name="VSYS" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="VSYS@3"/>
+<pinref part="JP2" gate="G$1" pin="VSYS@3"/>
 <wire x1="25.4" y1="154.94" x2="22.86" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="154.94" x2="22.86" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="J" pin="VSYS@1"/>
+<pinref part="JP2" gate="G$1" pin="VSYS@1"/>
 <wire x1="22.86" y1="157.48" x2="22.86" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="160.02" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="J" pin="VSYS@2"/>
+<pinref part="JP2" gate="G$1" pin="VSYS@2"/>
 <wire x1="25.4" y1="157.48" x2="22.86" y2="157.48" width="0.1524" layer="91"/>
 <junction x="22.86" y="157.48"/>
 <wire x1="22.86" y1="157.48" x2="20.32" y2="157.48" width="0.1524" layer="91"/>
 <label x="20.32" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="VSYS@3"/>
+<pinref part="JP3" gate="G$1" pin="VSYS@3"/>
 <wire x1="172.72" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="154.94" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="J" pin="VSYS@1"/>
+<pinref part="JP3" gate="G$1" pin="VSYS@1"/>
 <wire x1="170.18" y1="157.48" x2="170.18" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="160.02" x2="172.72" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="J" pin="VSYS@2"/>
+<pinref part="JP3" gate="G$1" pin="VSYS@2"/>
 <wire x1="172.72" y1="157.48" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
 <junction x="170.18" y="157.48"/>
 <wire x1="170.18" y1="157.48" x2="167.64" y2="157.48" width="0.1524" layer="91"/>
@@ -19206,20 +19330,20 @@ Default to I2C-1</text>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="3.3V@1"/>
+<pinref part="JP2" gate="G$1" pin="3.3V@1"/>
 <wire x1="25.4" y1="149.86" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="149.86" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="J" pin="3.3V@2"/>
+<pinref part="JP2" gate="G$1" pin="3.3V@2"/>
 <wire x1="22.86" y1="147.32" x2="25.4" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="149.86" x2="20.32" y2="149.86" width="0.1524" layer="91"/>
 <label x="20.32" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 <junction x="22.86" y="149.86"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="3.3V@1"/>
+<pinref part="JP3" gate="G$1" pin="3.3V@1"/>
 <wire x1="172.72" y1="149.86" x2="170.18" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="149.86" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="J" pin="3.3V@2"/>
+<pinref part="JP3" gate="G$1" pin="3.3V@2"/>
 <wire x1="170.18" y1="147.32" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="149.86" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
 <label x="167.64" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -19228,625 +19352,625 @@ Default to I2C-1</text>
 </net>
 <net name="GP183_PWM3" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP183_PWM3"/>
+<pinref part="JP2" gate="G$1" pin="GP183_PWM3"/>
 <wire x1="25.4" y1="68.58" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
 <label x="22.86" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP183_PWM3"/>
+<pinref part="JP3" gate="G$1" pin="GP183_PWM3"/>
 <wire x1="172.72" y1="68.58" x2="170.18" y2="68.58" width="0.1524" layer="91"/>
 <label x="170.18" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP182_PWM2" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP182_PWM2"/>
+<pinref part="JP2" gate="G$1" pin="GP182_PWM2"/>
 <wire x1="25.4" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <label x="22.86" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP182_PWM2"/>
+<pinref part="JP3" gate="G$1" pin="GP182_PWM2"/>
 <wire x1="172.72" y1="71.12" x2="170.18" y2="71.12" width="0.1524" layer="91"/>
 <label x="170.18" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP13_PWM1" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP13_PWM1"/>
+<pinref part="JP2" gate="G$1" pin="GP13_PWM1"/>
 <wire x1="25.4" y1="73.66" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
 <label x="22.86" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP13_PWM1"/>
+<pinref part="JP3" gate="G$1" pin="GP13_PWM1"/>
 <wire x1="172.72" y1="73.66" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
 <label x="170.18" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP12_PWM0" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP12_PWM0"/>
+<pinref part="JP2" gate="G$1" pin="GP12_PWM0"/>
 <wire x1="25.4" y1="76.2" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
 <label x="22.86" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP12_PWM0"/>
+<pinref part="JP3" gate="G$1" pin="GP12_PWM0"/>
 <wire x1="172.72" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
 <label x="170.18" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP14" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP14"/>
+<pinref part="JP2" gate="G$1" pin="GP14"/>
 <wire x1="25.4" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
 <label x="22.86" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP14"/>
+<pinref part="JP3" gate="G$1" pin="GP14"/>
 <wire x1="172.72" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
 <label x="170.18" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP15" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP15"/>
+<pinref part="JP2" gate="G$1" pin="GP15"/>
 <wire x1="25.4" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
 <label x="22.86" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP15"/>
+<pinref part="JP3" gate="G$1" pin="GP15"/>
 <wire x1="172.72" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 <label x="170.18" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP49" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP49"/>
+<pinref part="JP2" gate="G$1" pin="GP49"/>
 <wire x1="25.4" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 <label x="22.86" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP49"/>
+<pinref part="JP3" gate="G$1" pin="GP49"/>
 <wire x1="172.72" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
 <label x="170.18" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP48" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP48"/>
+<pinref part="JP2" gate="G$1" pin="GP48"/>
 <wire x1="25.4" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
 <label x="22.86" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP48"/>
+<pinref part="JP3" gate="G$1" pin="GP48"/>
 <wire x1="172.72" y1="88.9" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
 <label x="170.18" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP47" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP47"/>
+<pinref part="JP2" gate="G$1" pin="GP47"/>
 <wire x1="25.4" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
 <label x="22.86" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP47"/>
+<pinref part="JP3" gate="G$1" pin="GP47"/>
 <wire x1="172.72" y1="91.44" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
 <label x="170.18" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP46" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP46"/>
+<pinref part="JP2" gate="G$1" pin="GP46"/>
 <wire x1="25.4" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
 <label x="22.86" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP46"/>
+<pinref part="JP3" gate="G$1" pin="GP46"/>
 <wire x1="172.72" y1="93.98" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
 <label x="170.18" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP45" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP45"/>
+<pinref part="JP2" gate="G$1" pin="GP45"/>
 <wire x1="25.4" y1="96.52" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
 <label x="22.86" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP45"/>
+<pinref part="JP3" gate="G$1" pin="GP45"/>
 <wire x1="172.72" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
 <label x="170.18" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP165" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP165"/>
+<pinref part="JP2" gate="G$1" pin="GP165"/>
 <wire x1="25.4" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
 <label x="22.86" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP165"/>
+<pinref part="JP3" gate="G$1" pin="GP165"/>
 <wire x1="172.72" y1="99.06" x2="170.18" y2="99.06" width="0.1524" layer="91"/>
 <label x="170.18" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP44" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP44"/>
+<pinref part="JP2" gate="G$1" pin="GP44"/>
 <wire x1="25.4" y1="101.6" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
 <label x="22.86" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP44"/>
+<pinref part="JP3" gate="G$1" pin="GP44"/>
 <wire x1="172.72" y1="101.6" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
 <label x="170.18" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PSW" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="PSW"/>
+<pinref part="JP2" gate="G$1" pin="PSW"/>
 <wire x1="25.4" y1="106.68" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
 <label x="22.86" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="PSW"/>
+<pinref part="JP3" gate="G$1" pin="PSW"/>
 <wire x1="172.72" y1="106.68" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
 <label x="170.18" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FAULT" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="FAULT"/>
+<pinref part="JP2" gate="G$1" pin="FAULT"/>
 <wire x1="25.4" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
 <label x="22.86" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="FAULT"/>
+<pinref part="JP3" gate="G$1" pin="FAULT"/>
 <wire x1="172.72" y1="109.22" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
 <label x="170.18" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_VBUS" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="USB_VBUS"/>
+<pinref part="JP2" gate="G$1" pin="USB_VBUS"/>
 <wire x1="25.4" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
 <label x="22.86" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="USB_VBUS"/>
+<pinref part="JP3" gate="G$1" pin="USB_VBUS"/>
 <wire x1="172.72" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
 <label x="170.18" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_DN" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="USB_DN"/>
+<pinref part="JP2" gate="G$1" pin="USB_DN"/>
 <wire x1="25.4" y1="114.3" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
 <label x="22.86" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="USB_DN"/>
+<pinref part="JP3" gate="G$1" pin="USB_DN"/>
 <wire x1="172.72" y1="114.3" x2="170.18" y2="114.3" width="0.1524" layer="91"/>
 <label x="170.18" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_DP" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="USB_DP"/>
+<pinref part="JP2" gate="G$1" pin="USB_DP"/>
 <wire x1="25.4" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
 <label x="22.86" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="USB_DP"/>
+<pinref part="JP3" gate="G$1" pin="USB_DP"/>
 <wire x1="172.72" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
 <label x="170.18" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_ID" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="USB_ID"/>
+<pinref part="JP2" gate="G$1" pin="USB_ID"/>
 <wire x1="25.4" y1="119.38" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
 <label x="22.86" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="USB_ID"/>
+<pinref part="JP3" gate="G$1" pin="USB_ID"/>
 <wire x1="172.72" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
 <label x="170.18" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GP114_SPI_2_RXD" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP114_SPI_2_RXD"/>
+<pinref part="JP2" gate="G$1" pin="GP114_SPI_2_RXD"/>
 <wire x1="73.66" y1="106.68" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
 <label x="76.2" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP114_SPI_2_RXD"/>
+<pinref part="JP3" gate="G$1" pin="GP114_SPI_2_RXD"/>
 <wire x1="220.98" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
 <label x="223.52" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP115_SPI_2_TXD" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP115_SPI_2_TXD"/>
+<pinref part="JP2" gate="G$1" pin="GP115_SPI_2_TXD"/>
 <wire x1="73.66" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 <label x="76.2" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP115_SPI_2_TXD"/>
+<pinref part="JP3" gate="G$1" pin="GP115_SPI_2_TXD"/>
 <wire x1="220.98" y1="104.14" x2="223.52" y2="104.14" width="0.1524" layer="91"/>
 <label x="223.52" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP109_SPI_2_CLK" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP109_SPI_2_CLK"/>
+<pinref part="JP2" gate="G$1" pin="GP109_SPI_2_CLK"/>
 <wire x1="73.66" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
 <label x="76.2" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP109_SPI_2_CLK"/>
+<pinref part="JP3" gate="G$1" pin="GP109_SPI_2_CLK"/>
 <wire x1="220.98" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
 <label x="223.52" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP110_SPI_2_FS0" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP110_SPI_2_FS0"/>
+<pinref part="JP2" gate="G$1" pin="GP110_SPI_2_FS0"/>
 <wire x1="73.66" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
 <label x="76.2" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP110_SPI_2_FS0"/>
+<pinref part="JP3" gate="G$1" pin="GP110_SPI_2_FS0"/>
 <wire x1="220.98" y1="99.06" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
 <label x="223.52" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP111_SPI_2_FS1" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP111_SPI_2_FS1"/>
+<pinref part="JP2" gate="G$1" pin="GP111_SPI_2_FS1"/>
 <wire x1="73.66" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
 <label x="76.2" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP111_SPI_2_FS1"/>
+<pinref part="JP3" gate="G$1" pin="GP111_SPI_2_FS1"/>
 <wire x1="220.98" y1="96.52" x2="223.52" y2="96.52" width="0.1524" layer="91"/>
 <label x="223.52" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP135_UART_2_TX" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP135_UART_2_TX"/>
+<pinref part="JP2" gate="G$1" pin="GP135_UART_2_TX"/>
 <wire x1="73.66" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
 <label x="76.2" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP135_UART_2_TX"/>
+<pinref part="JP3" gate="G$1" pin="GP135_UART_2_TX"/>
 <wire x1="220.98" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
 <label x="223.52" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP134_UART_2_RX" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP134_UART_2_RX"/>
+<pinref part="JP2" gate="G$1" pin="GP134_UART_2_RX"/>
 <wire x1="73.66" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
 <label x="76.2" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP134_UART_2_RX"/>
+<pinref part="JP3" gate="G$1" pin="GP134_UART_2_RX"/>
 <wire x1="220.98" y1="86.36" x2="223.52" y2="86.36" width="0.1524" layer="91"/>
 <label x="223.52" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP43_I2S_2_TXD" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP43_I2S_2_TXD"/>
+<pinref part="JP2" gate="G$1" pin="GP43_I2S_2_TXD"/>
 <wire x1="73.66" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
 <label x="76.2" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP43_I2S_2_TXD"/>
+<pinref part="JP3" gate="G$1" pin="GP43_I2S_2_TXD"/>
 <wire x1="220.98" y1="78.74" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
 <label x="223.52" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP41_I2S_2_FS" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP41_I2S_2_FS"/>
+<pinref part="JP2" gate="G$1" pin="GP41_I2S_2_FS"/>
 <wire x1="73.66" y1="76.2" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
 <label x="76.2" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP41_I2S_2_FS"/>
+<pinref part="JP3" gate="G$1" pin="GP41_I2S_2_FS"/>
 <wire x1="220.98" y1="76.2" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
 <label x="223.52" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP40_I2S_2_CLK" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP40_I2S_2_CLK"/>
+<pinref part="JP2" gate="G$1" pin="GP40_I2S_2_CLK"/>
 <wire x1="73.66" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
 <label x="76.2" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP40_I2S_2_CLK"/>
+<pinref part="JP3" gate="G$1" pin="GP40_I2S_2_CLK"/>
 <wire x1="220.98" y1="73.66" x2="223.52" y2="73.66" width="0.1524" layer="91"/>
 <label x="223.52" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP42_I2S_2_RXD" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP42_I2S_2_RXD"/>
+<pinref part="JP2" gate="G$1" pin="GP42_I2S_2_RXD"/>
 <wire x1="73.66" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
 <label x="76.2" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP42_I2S_2_RXD"/>
+<pinref part="JP3" gate="G$1" pin="GP42_I2S_2_RXD"/>
 <wire x1="220.98" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91"/>
 <label x="223.52" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP28_I2C_6_SDA" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP28_I2C_6_SDA"/>
+<pinref part="JP2" gate="G$1" pin="GP28_I2C_6_SDA"/>
 <wire x1="73.66" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
 <label x="76.2" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP28_I2C_6_SDA"/>
+<pinref part="JP3" gate="G$1" pin="GP28_I2C_6_SDA"/>
 <wire x1="220.98" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
 <label x="223.52" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP27_I2C_6_SCL" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP27_I2C_6_SCL"/>
+<pinref part="JP2" gate="G$1" pin="GP27_I2C_6_SCL"/>
 <wire x1="73.66" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
 <label x="76.2" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP27_I2C_6_SCL"/>
+<pinref part="JP3" gate="G$1" pin="GP27_I2C_6_SCL"/>
 <wire x1="220.98" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
 <label x="223.52" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP20_I2C_1_SDA" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP20_I2C_1_SDA"/>
+<pinref part="JP2" gate="G$1" pin="GP20_I2C_1_SDA"/>
 <wire x1="73.66" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
 <label x="76.2" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP20_I2C_1_SDA"/>
+<pinref part="JP3" gate="G$1" pin="GP20_I2C_1_SDA"/>
 <wire x1="220.98" y1="53.34" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
 <label x="223.52" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP19_I2C_1_SCL" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP19_I2C_1_SCL"/>
+<pinref part="JP2" gate="G$1" pin="GP19_I2C_1_SCL"/>
 <wire x1="73.66" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
 <label x="76.2" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP19_I2C_1_SCL"/>
+<pinref part="JP3" gate="G$1" pin="GP19_I2C_1_SCL"/>
 <wire x1="220.98" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
 <label x="223.52" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP131_UART_1_TX" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP131_UART_1_TX"/>
+<pinref part="JP2" gate="G$1" pin="GP131_UART_1_TX"/>
 <wire x1="73.66" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
 <label x="76.2" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP131_UART_1_TX"/>
+<pinref part="JP3" gate="G$1" pin="GP131_UART_1_TX"/>
 <wire x1="220.98" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
 <label x="223.52" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP130_UART_1_RX" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP130_UART_1_RX"/>
+<pinref part="JP2" gate="G$1" pin="GP130_UART_1_RX"/>
 <wire x1="73.66" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
 <label x="76.2" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP130_UART_1_RX"/>
+<pinref part="JP3" gate="G$1" pin="GP130_UART_1_RX"/>
 <wire x1="220.98" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
 <label x="223.52" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP129_UART_1_RTS" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP129_UART_1_RTS"/>
+<pinref part="JP2" gate="G$1" pin="GP129_UART_1_RTS"/>
 <wire x1="73.66" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
 <label x="76.2" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP129_UART_1_RTS"/>
+<pinref part="JP3" gate="G$1" pin="GP129_UART_1_RTS"/>
 <wire x1="220.98" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
 <label x="223.52" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP128_UART_1_CTS" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP128_UART_1_CTS"/>
+<pinref part="JP2" gate="G$1" pin="GP128_UART_1_CTS"/>
 <wire x1="73.66" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 <label x="76.2" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP128_UART_1_CTS"/>
+<pinref part="JP3" gate="G$1" pin="GP128_UART_1_CTS"/>
 <wire x1="220.98" y1="121.92" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
 <label x="223.52" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP84_SD_CLK_FB" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP84_SD_CLK_FB"/>
+<pinref part="JP2" gate="G$1" pin="GP84_SD_CLK_FB"/>
 <wire x1="73.66" y1="127" x2="76.2" y2="127" width="0.1524" layer="91"/>
 <label x="76.2" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP84_SD_CLK_FB"/>
+<pinref part="JP3" gate="G$1" pin="GP84_SD_CLK_FB"/>
 <wire x1="220.98" y1="127" x2="223.52" y2="127" width="0.1524" layer="91"/>
 <label x="223.52" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP78_SD_0_CLK" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP78_SD_0_CLK"/>
+<pinref part="JP2" gate="G$1" pin="GP78_SD_0_CLK"/>
 <wire x1="73.66" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
 <label x="76.2" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP78_SD_0_CLK"/>
+<pinref part="JP3" gate="G$1" pin="GP78_SD_0_CLK"/>
 <wire x1="220.98" y1="129.54" x2="223.52" y2="129.54" width="0.1524" layer="91"/>
 <label x="223.52" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP77_SD_0_CD#" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP77_SD_0_CD#"/>
+<pinref part="JP2" gate="G$1" pin="GP77_SD_0_CD#"/>
 <wire x1="73.66" y1="132.08" x2="76.2" y2="132.08" width="0.1524" layer="91"/>
 <label x="76.2" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP77_SD_0_CD#"/>
+<pinref part="JP3" gate="G$1" pin="GP77_SD_0_CD#"/>
 <wire x1="220.98" y1="132.08" x2="223.52" y2="132.08" width="0.1524" layer="91"/>
 <label x="223.52" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP79_SD_0_CMD" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP79_SD_0_CMD"/>
+<pinref part="JP2" gate="G$1" pin="GP79_SD_0_CMD"/>
 <wire x1="73.66" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
 <label x="76.2" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP79_SD_0_CMD"/>
+<pinref part="JP3" gate="G$1" pin="GP79_SD_0_CMD"/>
 <wire x1="220.98" y1="134.62" x2="223.52" y2="134.62" width="0.1524" layer="91"/>
 <label x="223.52" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP80_SD_0_DAT0" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP80_SD_0_DAT0"/>
+<pinref part="JP2" gate="G$1" pin="GP80_SD_0_DAT0"/>
 <wire x1="73.66" y1="137.16" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
 <label x="76.2" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP80_SD_0_DAT0"/>
+<pinref part="JP3" gate="G$1" pin="GP80_SD_0_DAT0"/>
 <wire x1="220.98" y1="137.16" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
 <label x="223.52" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP81_SD_0_DAT1" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP81_SD_0_DAT1"/>
+<pinref part="JP2" gate="G$1" pin="GP81_SD_0_DAT1"/>
 <wire x1="73.66" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
 <label x="76.2" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP81_SD_0_DAT1"/>
+<pinref part="JP3" gate="G$1" pin="GP81_SD_0_DAT1"/>
 <wire x1="220.98" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
 <label x="223.52" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP82_SD_0_DAT2" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP82_SD_0_DAT2"/>
+<pinref part="JP2" gate="G$1" pin="GP82_SD_0_DAT2"/>
 <wire x1="73.66" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
 <label x="76.2" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP82_SD_0_DAT2"/>
+<pinref part="JP3" gate="G$1" pin="GP82_SD_0_DAT2"/>
 <wire x1="220.98" y1="142.24" x2="223.52" y2="142.24" width="0.1524" layer="91"/>
 <label x="223.52" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP83_SD_0_DAT3" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="GP83_SD_0_DAT3"/>
+<pinref part="JP2" gate="G$1" pin="GP83_SD_0_DAT3"/>
 <wire x1="73.66" y1="144.78" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
 <label x="76.2" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="GP83_SD_0_DAT3"/>
+<pinref part="JP3" gate="G$1" pin="GP83_SD_0_DAT3"/>
 <wire x1="220.98" y1="144.78" x2="223.52" y2="144.78" width="0.1524" layer="91"/>
 <label x="223.52" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MSIC_SLP_CLK" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="MSIC_SLP_CLK"/>
+<pinref part="JP2" gate="G$1" pin="MSIC_SLP_CLK"/>
 <wire x1="25.4" y1="124.46" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
 <label x="22.86" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="MSIC_SLP_CLK"/>
+<pinref part="JP3" gate="G$1" pin="MSIC_SLP_CLK"/>
 <wire x1="172.72" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
 <label x="170.18" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RESET_OUT#" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="RESET_OUT#"/>
+<pinref part="JP2" gate="G$1" pin="RESET_OUT#"/>
 <wire x1="25.4" y1="129.54" x2="22.86" y2="129.54" width="0.1524" layer="91"/>
 <label x="22.86" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="RESET_OUT#"/>
+<pinref part="JP3" gate="G$1" pin="RESET_OUT#"/>
 <wire x1="172.72" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
 <label x="170.18" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWRBTN#" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="PWRBTN#"/>
+<pinref part="JP2" gate="G$1" pin="PWRBTN#"/>
 <wire x1="25.4" y1="132.08" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
 <label x="22.86" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="PWRBTN#"/>
+<pinref part="JP3" gate="G$1" pin="PWRBTN#"/>
 <wire x1="172.72" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
 <label x="170.18" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="V_BAT_BKUP" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="V_VAT_BKUP"/>
+<pinref part="JP2" gate="G$1" pin="V_VAT_BKUP"/>
 <wire x1="25.4" y1="137.16" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
 <label x="22.86" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="V_VAT_BKUP"/>
+<pinref part="JP3" gate="G$1" pin="V_VAT_BKUP"/>
 <wire x1="172.72" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
 <label x="170.18" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="1.8V" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="1.8V"/>
+<pinref part="JP2" gate="G$1" pin="1.8V"/>
 <wire x1="25.4" y1="142.24" x2="22.86" y2="142.24" width="0.1524" layer="91"/>
 <label x="22.86" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="1.8V"/>
+<pinref part="JP3" gate="G$1" pin="1.8V"/>
 <wire x1="172.72" y1="142.24" x2="170.18" y2="142.24" width="0.1524" layer="91"/>
 <label x="170.18" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FW_RCVR" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="FW_RCVR"/>
+<pinref part="JP2" gate="G$1" pin="FW_RCVR"/>
 <wire x1="73.66" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
 <label x="76.2" y="160.02" size="1.27" layer="95" xref="yes"/>
 <label x="76.2" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="FW_RCVR"/>
+<pinref part="JP3" gate="G$1" pin="FW_RCVR"/>
 <wire x1="220.98" y1="160.02" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
 <label x="223.52" y="160.02" size="1.27" layer="95" xref="yes"/>
 <label x="223.52" y="160.02" size="1.27" layer="95" xref="yes"/>
@@ -19854,36 +19978,36 @@ Default to I2C-1</text>
 </net>
 <net name="RCVR_MODE" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="RCVR_MODE"/>
+<pinref part="JP2" gate="G$1" pin="RCVR_MODE"/>
 <wire x1="73.66" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
 <label x="76.2" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="RCVR_MODE"/>
+<pinref part="JP3" gate="G$1" pin="RCVR_MODE"/>
 <wire x1="220.98" y1="157.48" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
 <label x="223.52" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OSC_CLK_OUT" class="0">
 <segment>
-<pinref part="JP2" gate="J" pin="OSC_CLK_OUT_0"/>
+<pinref part="JP2" gate="G$1" pin="OSC_CLK_OUT_0"/>
 <wire x1="73.66" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
 <label x="76.2" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="J" pin="OSC_CLK_OUT_0"/>
+<pinref part="JP3" gate="G$1" pin="OSC_CLK_OUT_0"/>
 <wire x1="220.98" y1="152.4" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
 <label x="223.52" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DCIN" class="0">
 <segment>
-<pinref part="JP3" gate="J" pin="DCIN"/>
+<pinref part="JP3" gate="G$1" pin="DCIN"/>
 <wire x1="172.72" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
 <label x="170.18" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="J" pin="DCIN"/>
+<pinref part="JP2" gate="G$1" pin="DCIN"/>
 <wire x1="25.4" y1="152.4" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
 <label x="22.86" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
