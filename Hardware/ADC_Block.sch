@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -18893,8 +18893,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="1.8V" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="200KOHM1/10W1%(0603)" device="200K" value="200k"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="2.2KOHM-1/10W-1%(0603)" device="" value="2.2k"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="2.2KOHM-1/10W-1%(0603)" device="" value="2.2k"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="2.2KOHM-1/10W-1%(0603)" device="" value="DNP"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="2.2KOHM-1/10W-1%(0603)" device="" value="DNP"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
