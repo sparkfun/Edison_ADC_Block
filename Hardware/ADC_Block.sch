@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17189,7 +17189,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 <circle x="0" y="0" radius="1.74625" width="0.2032" layer="21"/>
 </package>
-<package name="PAD-JUMPER-3-2OF3_NC_BY_PASTE_YES_SILK_FULL_BOX">
+<package name="PAD-HUMPER-3-1&amp;2_NC_BY_PASTE_YES_SILK_FULL_BOX">
 <wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="1.016" x2="1.524" y2="0.762" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-1.524" y1="0.762" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
@@ -17198,18 +17198,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.508" x2="-0.1905" y2="0.508" width="0.127" layer="51"/>
-<wire x1="-0.1905" y1="0.508" x2="-0.1905" y2="-0.508" width="0.127" layer="51"/>
-<wire x1="-0.1905" y1="-0.508" x2="1.016" y2="-0.508" width="0.127" layer="51"/>
-<wire x1="1.016" y1="-0.508" x2="1.016" y2="0.508" width="0.127" layer="51"/>
+<wire x1="0.1778" y1="0.508" x2="-1.0287" y2="0.508" width="0.127" layer="51"/>
+<wire x1="-1.0287" y1="0.508" x2="-1.0287" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="-1.0287" y1="-0.508" x2="0.1778" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="0.1778" y1="-0.508" x2="0.1778" y2="0.508" width="0.127" layer="51"/>
 <smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 <text x="-1.27" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
-<text x="0.0635" y="-0.4445" size="0.254" layer="51" rot="R40">PASTE</text>
-<rectangle x1="-0.2794" y1="-1.016" x2="1.4224" y2="0.9906" layer="31"/>
+<text x="-0.7747" y="-0.4445" size="0.254" layer="51" rot="R40">PASTE</text>
+<rectangle x1="-1.4224" y1="-1.016" x2="0.2794" y2="0.9906" layer="31"/>
 </package>
 <package name="PAD-JUMPER-2-NC_BY_PASTE_NO_SILK">
 <smd name="1" x="-0.4009" y="0" dx="0.635" dy="1.27" layer="1" rot="R180" cream="no"/>
@@ -17241,7 +17241,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="PAD-JUMPER-3-2OF3-NC_BY_PASTE">
+<symbol name="PAD-JUMPER-3-1&amp;2_NC_BY_PASTE_YES_SILK_FULL_BOX">
 <wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
 <wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
@@ -17257,11 +17257,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <polygon width="0.254" layer="95">
-<vertex x="-1.524" y="0.762"/>
-<vertex x="-1.524" y="-1.524" curve="90"/>
-<vertex x="0" y="-3.048" curve="90"/>
-<vertex x="1.524" y="-1.524"/>
-<vertex x="1.524" y="0.762"/>
+<vertex x="1.524" y="-0.9144"/>
+<vertex x="1.524" y="1.3716" curve="90"/>
+<vertex x="0" y="2.8956" curve="90"/>
+<vertex x="-1.524" y="1.3716"/>
+<vertex x="-1.524" y="-0.9144"/>
 </polygon>
 </symbol>
 </symbols>
@@ -17334,12 +17334,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER-PAD-3-2OF3_NC_BY_PASTE" prefix="SJ">
+<deviceset name="JUMPER_PAD-3-1&amp;2_NC_BY_PASTE">
 <gates>
-<gate name="G$1" symbol="PAD-JUMPER-3-2OF3-NC_BY_PASTE" x="0" y="0"/>
+<gate name="G$1" symbol="PAD-JUMPER-3-1&amp;2_NC_BY_PASTE_YES_SILK_FULL_BOX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PAD-JUMPER-3-2OF3_NC_BY_PASTE_YES_SILK_FULL_BOX">
+<device name="" package="PAD-HUMPER-3-1&amp;2_NC_BY_PASTE_YES_SILK_FULL_BOX">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -19113,8 +19113,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SJ5" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_PASTE" device="" value="SDA_SEL"/>
-<part name="SJ6" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_PASTE" device="" value="SCL_SEL"/>
+<part name="SJ5" library="SparkFun-Passives" deviceset="JUMPER_PAD-3-1&amp;2_NC_BY_PASTE" device="" value="SDA_SEL"/>
+<part name="SJ6" library="SparkFun-Passives" deviceset="JUMPER_PAD-3-1&amp;2_NC_BY_PASTE" device="" value="SCL_SEL"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="0.27OHM-1/10W-1%(0603)" device="" value="0.27"/>
 </parts>
 <sheets>
